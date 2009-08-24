@@ -180,6 +180,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kayvon Beykpour";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -187,6 +188,7 @@
 				GCC_PREFIX_HEADER = shaker_Prefix.pch;
 				INFOPLIST_FILE = "shaker-Info.plist";
 				PRODUCT_NAME = shaker;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B0DC1DB0-30E0-47E9-A09A-C2C24B8238DF";
 			};
 			name = Debug;
 		};
@@ -194,11 +196,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kayvon Beykpour";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = shaker_Prefix.pch;
 				INFOPLIST_FILE = "shaker-Info.plist";
 				PRODUCT_NAME = shaker;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B0DC1DB0-30E0-47E9-A09A-C2C24B8238DF";
 			};
 			name = Release;
 		};
