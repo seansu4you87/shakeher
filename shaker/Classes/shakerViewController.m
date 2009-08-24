@@ -7,34 +7,41 @@
 //
 
 #import "shakerViewController.h"
+#import "Shaker.h"
 
 @implementation shakerViewController
 
 
-
-/*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        // Custom initialization
+        shaker = [[Shaker alloc] init];
+		shaker.delegate = self;
     }
     return self;
 }
-*/
 
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
+- (void) didShakeWithMagnitude:(float)magnitude
+{
+	NSLog(@"Shook u! with magnitude:%f", magnitude);
 }
-*/
 
-
+// Implement loadView to create a view hierarchy programmatically, without using a nib.
 /*
+- (void)loadView {
+	
+}
+ */
+
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+ 
+	 NSLog(@"Loaded shaker view");
+	 [shaker start];
 }
-*/
+
 
 
 /*
@@ -59,6 +66,9 @@
 
 
 - (void)dealloc {
+	[shaker stop];
+	[shaker release];
+	
     [super dealloc];
 }
 

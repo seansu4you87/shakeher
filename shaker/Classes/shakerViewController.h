@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Shaker.h"
 
-@interface shakerViewController : UIViewController {
-
+@interface shakerViewController : UIViewController<ShakerDelegate> {
+	Shaker * shaker;
+	IBOutlet UISlider * slider;
 }
+
+- (void) didShakeWithMagnitude:(float)magnitude;
 
 @end
 
