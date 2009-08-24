@@ -8,6 +8,9 @@
 
 #import "Shaker.h"
 
+#define ACCELERATION_THRESHOLD 1.0
+#define MIN_TIME 0.1
+
 @implementation Shaker
 
 @synthesize delegate, lastAcceleration;
@@ -31,8 +34,9 @@
 
 - (void) start
 {
+	NSLog(@"started shaker fer u");
 	[UIAccelerometer sharedAccelerometer].delegate = self;
-	[UIAccelerometer sharedAccelerometer].updateInterval = 0.0001;
+	[UIAccelerometer sharedAccelerometer].updateInterval = 0;
 }
 
 - (void) stop
@@ -43,7 +47,18 @@
 
 - (BOOL) accelerationIsShake:(UIAcceleration*)acceleration
 {
-	return YES;
+	BOOL hardEnough = [Shaker differenceFromAcceleration:lastAcceleration toAcceleration:acceleration] > ACCELERATION_THRESHOLD;
+	BOOL changedEnough = [Shaker acceleration:acceleration changedDirectionFrom:lastAcceleration];
+	BOOL lateEnough = acceleration.timestamp - lastAcceleration.timestamp > MIN_TIME;
+	
+	return hardEnough && changedEnough && lateEnough;
+}
+
++ (BOOL) acceleration:(UIAcceleration*)first changedDirectionFrom:(UIAcceleration*)second
+{	
+	return ((first.x < 0 && second.x > 0) || (first.x > 0 && second.x < 0)) 
+		|| ((first.y < 0 && second.y > 0) || (first.y > 0 && second.y < 0)) 
+		|| ((first.z < 0 && second.z > 0) || (first.z > 0 && second.z < 0));
 }
 
 + (float) differenceFromAcceleration:(UIAcceleration*)first toAcceleration:(UIAcceleration*)second
@@ -65,12 +80,12 @@
 	
 	if([self accelerationIsShake:acceleration])
 	{
-		[delegate didShakeWithMagnitude:[Shaker magnitudeOfAcceleration:acceleration]];
+		[delegate didShakeWithMagnitude:[Shaker differenceFromAcceleration:lastAcceleration toAcceleration:acceleration]];
 	}
 	
 	self.lastAcceleration = acceleration;
 	
-	NSLog(@"accelerated with x:%f y:%f z:%f", acceleration.x, acceleration.y, acceleration.z);
+	//NSLog(@"accelerated with x:%f y:%f z:%f", acceleration.x, acceleration.y, acceleration.z);
 }
 
 @end

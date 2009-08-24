@@ -13,13 +13,13 @@
 
 
 // The designated initializer. Override to perform setup that is required before the view is loaded.
+/*
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        shaker = [[Shaker alloc] init];
-		shaker.delegate = self;
+        
     }
     return self;
-}
+}*/
 
 - (void) didShakeWithMagnitude:(float)magnitude
 {
@@ -37,9 +37,12 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
- 
-	 NSLog(@"Loaded shaker view");
-	 [shaker start];
+	
+	shaker = [[Shaker alloc] init];
+	shaker.delegate = self;
+	[shaker start];
+	
+	NSLog(@"Loaded shaker view");
 }
 
 

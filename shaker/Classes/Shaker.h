@@ -30,5 +30,6 @@
 
 + (float) magnitudeOfAcceleration:(UIAcceleration*)acceleration;
 + (float) differenceFromAcceleration:(UIAcceleration*)first toAcceleration:(UIAcceleration*)second;
++ (BOOL) acceleration:(UIAcceleration*)first changedDirectionFrom:(UIAcceleration*)second;
 
 @end
