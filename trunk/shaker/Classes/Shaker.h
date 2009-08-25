@@ -17,11 +17,13 @@
 
 @interface Shaker : NSObject<UIAccelerometerDelegate> {
 	id<ShakerDelegate> delegate;
+	
 	UIAcceleration * lastAcceleration;
+	UIAcceleration * lastShake;
 }
 
 @property(nonatomic, assign) id<ShakerDelegate> delegate;
-@property(nonatomic, retain) UIAcceleration * lastAcceleration;
+@property(nonatomic, retain) UIAcceleration *lastAcceleration, *lastShake;
 
 - (void) start;
 - (void) stop;
