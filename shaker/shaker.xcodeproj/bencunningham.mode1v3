@@ -274,6 +274,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>9</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -327,7 +329,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FD4603171043DF110066E232</string>
+										<string>FD4603361043E7BB0066E232</string>
 										<key>history</key>
 										<array>
 											<string>FD46020F1043CA2F0066E232</string>
@@ -337,10 +339,10 @@
 											<string>FD4602C91043D22D0066E232</string>
 											<string>FD4602F21043DF110066E232</string>
 											<string>FD4602F31043DF110066E232</string>
-											<string>FD4602F41043DF110066E232</string>
-											<string>FD4602F51043DF110066E232</string>
-											<string>FD4602F61043DF110066E232</string>
-											<string>FD4602F71043DF110066E232</string>
+											<string>FD4603251043E7BB0066E232</string>
+											<string>FD4603261043E7BB0066E232</string>
+											<string>FD4603271043E7BB0066E232</string>
+											<string>FD4603281043E7BB0066E232</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -507,6 +509,19 @@
 											<string>FD4603141043DF110066E232</string>
 											<string>FD4603151043DF110066E232</string>
 											<string>FD4603161043DF110066E232</string>
+											<string>FD4603291043E7BB0066E232</string>
+											<string>FD46032A1043E7BB0066E232</string>
+											<string>FD46032B1043E7BB0066E232</string>
+											<string>FD46032C1043E7BB0066E232</string>
+											<string>FD46032D1043E7BB0066E232</string>
+											<string>FD46032E1043E7BB0066E232</string>
+											<string>FD46032F1043E7BB0066E232</string>
+											<string>FD4603301043E7BB0066E232</string>
+											<string>FD4603311043E7BB0066E232</string>
+											<string>FD4603321043E7BB0066E232</string>
+											<string>FD4603331043E7BB0066E232</string>
+											<string>FD4603341043E7BB0066E232</string>
+											<string>FD4603351043E7BB0066E232</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -700,13 +715,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>FD4603181043DF110066E232</string>
+		<string>FD4603371043E7BB0066E232</string>
 		<string>FD4601EC1043C9270066E232</string>
 		<string>FD4601E11043C9080066E232</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>FD38B0C01043541F00848695</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Library/WebServer/Documents/shaker/shaker/shaker.xcodeproj</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>FD38B0C01043541F00848695</string>
 	</array>
 	<key>WindowString</key>
 	<string>182 139 984 585 0 0 1280 778 </string>
@@ -741,7 +756,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {890, 290}}</string>
 								<key>RubberWindowFrame</key>
-								<string>442 125 890 572 0 0 1280 778 </string>
+								<string>134 164 890 572 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -765,7 +780,7 @@
 								<key>Frame</key>
 								<string>{{0, 295}, {890, 236}}</string>
 								<key>RubberWindowFrame</key>
-								<string>442 125 890 572 0 0 1280 778 </string>
+								<string>134 164 890 572 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXBuildResultsModule</string>
@@ -795,7 +810,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.buildV3</string>
 			<key>WindowString</key>
-			<string>442 125 890 572 0 0 1280 778 </string>
+			<string>134 164 890 572 0 0 1280 778 </string>
 			<key>WindowToolGUID</key>
 			<string>FD38B0C01043541F00848695</string>
 			<key>WindowToolIsVisible</key>

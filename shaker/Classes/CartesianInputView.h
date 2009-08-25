@@ -32,6 +32,8 @@
 	ActiveZone * selectedZone;
 	
 	BOOL hasReceivedTouch;
+	BOOL touchHasMoved;
+	BOOL touchAdded;
 }
 
 @property(nonatomic, assign) int numYQuantizations, numXQuantizations;

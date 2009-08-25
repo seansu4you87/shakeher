@@ -10,7 +10,7 @@
 
 @implementation ActiveZone
 
-@synthesize xIndex, yIndex, isActive;
+@synthesize xIndex, yIndex, isActive, color;
 
 + (ActiveZone*) zoneWithX:(int)x Y:(int)y
 {
@@ -19,8 +19,16 @@
 	result.xIndex = x;
 	result.yIndex = y;
 	result.isActive = YES;
+	result.color = [UIColor redColor];
 	
 	return [result autorelease];
+}
+
+- (void) dealloc
+{
+	[color release];
+	
+	[super dealloc];
 }
 
 @end

@@ -14,10 +14,13 @@
 	int yIndex;
 	
 	BOOL isActive;
+	
+	UIColor * color;
 }
 
 @property(nonatomic, assign) int xIndex, yIndex;
 @property(nonatomic, assign) BOOL isActive;
+@property(nonatomic, retain) UIColor * color;
 
 + (ActiveZone*) zoneWithX:(int)x Y:(int)y;
 

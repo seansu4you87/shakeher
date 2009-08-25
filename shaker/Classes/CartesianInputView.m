@@ -76,7 +76,7 @@
 	int ySection = [self ySectionForY:viewCoords.y];
 	int xSection = [self xSectionForX:viewCoords.x];
 	
-	for(int i = [zones count]-1; i >=0; i--)
+	for(int i = [zones count] - 1; i >= 0; i--)
 	{
 		ActiveZone * zone = [zones objectAtIndex:i];
 		if(zone.xIndex == xSection && zone.yIndex == ySection)
@@ -88,9 +88,64 @@
 	return nil;
 }
 
++ (NSMutableArray*) possibleColors
+{
+	NSMutableArray * result = [NSMutableArray array];
+	
+	[result addObject:[UIColor redColor]];
+	[result addObject:[UIColor blueColor]];
+	[result addObject:[UIColor orangeColor]];
+	[result addObject:[UIColor purpleColor]];
+	[result addObject:[UIColor yellowColor]];
+	
+	return result;
+}
+
+
+- (UIColor*) colorForNewZone{
+	NSMutableArray * possibilities = [CartesianInputView possibleColors];
+	for(ActiveZone * zone in zones)
+	{
+		UIColor * toDelete;
+		for(UIColor * color in possibilities)
+		{
+			if(CGColorEqualToColor(zone.color.CGColor, color.CGColor))
+			{
+				toDelete = color;
+			}
+		}
+		if(toDelete != nil)
+		{
+			[possibilities removeObject:toDelete];
+		}
+	}
+	
+	if([possibilities count] == 0)
+		possibilities = [CartesianInputView possibleColors];
+	
+	return [possibilities objectAtIndex:0];
+}
+
+- (UIColor*) colorForZone:(ActiveZone*)theZone
+{
+	return theZone.color;
+}
+
+- (void) addZoneForTouchPoint:(CGPoint)touchPoint
+{
+	ActiveZone * newZone = [ActiveZone zoneWithX:[self xSectionForX:touchPoint.x] Y:[self ySectionForY:touchPoint.y]];
+	newZone.color = [self colorForNewZone];
+	[zones addObject:newZone];
+	selectedZone = newZone;
+	[self setNeedsDisplay];
+	touchAdded = YES;
+}
+
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
 	hasReceivedTouch = YES;
+	touchHasMoved = NO;
+	touchAdded = NO;
 	
 	NSArray * allTouches = [touches allObjects];
 	UITouch * firstTouch = [allTouches objectAtIndex:0];
@@ -103,15 +158,13 @@
 		selectedZone = tappedZone;
 	}else
 	{
-		ActiveZone * newZone = [ActiveZone zoneWithX:[self xSectionForX:touchPoint.x] Y:[self ySectionForY:touchPoint.y]];
-		[zones addObject:newZone];
-		selectedZone = newZone;
-		[self setNeedsDisplay];
+		[self addZoneForTouchPoint:touchPoint];
 	}
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
+	touchHasMoved = YES;
 	if(selectedZone != nil)
 	{
 		NSArray * allTouches = [touches allObjects];
@@ -130,29 +183,25 @@
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
+	NSArray * allTouches = [touches allObjects];
+	UITouch * firstTouch = [allTouches objectAtIndex:0];
+	CGPoint touchPoint = [firstTouch locationInView:self];
+	
+	if([firstTouch tapCount] > 1)
+	{
+		[zones removeAllObjects];
+		[self addZoneForTouchPoint:touchPoint];
+	}else if(!touchHasMoved && !touchAdded)
+	{
+		ActiveZone * tapped = [self zoneForTouchPoint:touchPoint];
+		[zones removeObject:tapped];
+		[self setNeedsDisplay];
+	}
+	
 	selectedZone = nil;
 }
 
-- (UIColor*) colorForZone:(ActiveZone*)theZone
-{
-	int index = [zones indexOfObject:theZone];
-	int numColors = 5;
-	switch(index%numColors)
-	{
-		case 0:
-			return [UIColor redColor];
-		case 1:
-			return [UIColor blueColor];
-		case 2:
-			return [UIColor orangeColor];
-		case 3:
-			return [UIColor purpleColor];
-		case 4:
-			return [UIColor yellowColor];
-	}
-	
-	return [UIColor redColor];
-}
+
 
 - (NSArray*) zonesWithZone:(ActiveZone*)theZone
 {

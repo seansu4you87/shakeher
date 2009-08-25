@@ -425,6 +425,24 @@
 			FD4603151043DF110066E232 /* PBXTextBookmark */ = FD4603151043DF110066E232 /* PBXTextBookmark */;
 			FD4603161043DF110066E232 /* PBXTextBookmark */ = FD4603161043DF110066E232 /* PBXTextBookmark */;
 			FD4603171043DF110066E232 /* PBXTextBookmark */ = FD4603171043DF110066E232 /* PBXTextBookmark */;
+			FD4603251043E7BB0066E232 /* PBXTextBookmark */ = FD4603251043E7BB0066E232 /* PBXTextBookmark */;
+			FD4603261043E7BB0066E232 /* PBXTextBookmark */ = FD4603261043E7BB0066E232 /* PBXTextBookmark */;
+			FD4603271043E7BB0066E232 /* PBXTextBookmark */ = FD4603271043E7BB0066E232 /* PBXTextBookmark */;
+			FD4603281043E7BB0066E232 /* PBXTextBookmark */ = FD4603281043E7BB0066E232 /* PBXTextBookmark */;
+			FD4603291043E7BB0066E232 /* PBXTextBookmark */ = FD4603291043E7BB0066E232 /* PBXTextBookmark */;
+			FD46032A1043E7BB0066E232 /* PBXTextBookmark */ = FD46032A1043E7BB0066E232 /* PBXTextBookmark */;
+			FD46032B1043E7BB0066E232 /* PBXTextBookmark */ = FD46032B1043E7BB0066E232 /* PBXTextBookmark */;
+			FD46032C1043E7BB0066E232 /* PBXTextBookmark */ = FD46032C1043E7BB0066E232 /* PBXTextBookmark */;
+			FD46032D1043E7BB0066E232 /* PBXTextBookmark */ = FD46032D1043E7BB0066E232 /* PBXTextBookmark */;
+			FD46032E1043E7BB0066E232 /* PBXTextBookmark */ = FD46032E1043E7BB0066E232 /* PBXTextBookmark */;
+			FD46032F1043E7BB0066E232 /* PBXTextBookmark */ = FD46032F1043E7BB0066E232 /* PBXTextBookmark */;
+			FD4603301043E7BB0066E232 /* PBXTextBookmark */ = FD4603301043E7BB0066E232 /* PBXTextBookmark */;
+			FD4603311043E7BB0066E232 /* PBXTextBookmark */ = FD4603311043E7BB0066E232 /* PBXTextBookmark */;
+			FD4603321043E7BB0066E232 /* PBXTextBookmark */ = FD4603321043E7BB0066E232 /* PBXTextBookmark */;
+			FD4603331043E7BB0066E232 /* PBXTextBookmark */ = FD4603331043E7BB0066E232 /* PBXTextBookmark */;
+			FD4603341043E7BB0066E232 /* PBXTextBookmark */ = FD4603341043E7BB0066E232 /* PBXTextBookmark */;
+			FD4603351043E7BB0066E232 /* PBXTextBookmark */ = FD4603351043E7BB0066E232 /* PBXTextBookmark */;
+			FD4603361043E7BB0066E232 /* PBXTextBookmark */ = FD4603361043E7BB0066E232 /* PBXTextBookmark */;
 		};
 		sourceControlManager = FD89E26510340F5000765D11 /* Source Control */;
 		userBuildSettings = {
@@ -1006,16 +1024,16 @@
 	};
 	FD46017A1043BE070066E232 /* CartesianInputView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {829, 574}}";
-			sepNavSelRange = "{1014, 0}";
-			sepNavVisRange = "{655, 366}";
+			sepNavIntBoundsRect = "{{0, 0}, {715, 602}}";
+			sepNavSelRange = "{909, 0}";
+			sepNavVisRange = "{404, 580}";
 		};
 	};
 	FD46017B1043BE070066E232 /* CartesianInputView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {715, 4032}}";
-			sepNavSelRange = "{1649, 0}";
-			sepNavVisRange = "{1416, 463}";
+			sepNavIntBoundsRect = "{{0, 0}, {715, 4802}}";
+			sepNavSelRange = "{2132, 0}";
+			sepNavVisRange = "{1794, 499}";
 		};
 	};
 	FD4601971043C8FC0066E232 /* PBXTextBookmark */ = {
@@ -1033,7 +1051,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 38";
 		rLen = 0;
-		rLoc = 944;
+		rLoc = 983;
 		rType = 0;
 		vrLen = 539;
 		vrLoc = 167;
@@ -1053,7 +1071,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 38";
 		rLen = 0;
-		rLoc = 944;
+		rLoc = 983;
 		rType = 0;
 		vrLen = 367;
 		vrLoc = 708;
@@ -1073,7 +1091,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 38";
 		rLen = 0;
-		rLoc = 944;
+		rLoc = 983;
 		rType = 0;
 		vrLen = 539;
 		vrLoc = 167;
@@ -1093,7 +1111,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 38";
 		rLen = 0;
-		rLoc = 944;
+		rLoc = 983;
 		rType = 0;
 		vrLen = 446;
 		vrLoc = 374;
@@ -1221,7 +1239,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 44";
 		rLen = 0;
-		rLoc = 1014;
+		rLoc = 1053;
 		rType = 0;
 		vrLen = 707;
 		vrLoc = 445;
@@ -1241,7 +1259,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 44";
 		rLen = 0;
-		rLoc = 1014;
+		rLoc = 1053;
 		rType = 0;
 		vrLen = 707;
 		vrLoc = 445;
@@ -1261,7 +1279,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 46";
 		rLen = 0;
-		rLoc = 1014;
+		rLoc = 1053;
 		rType = 0;
 		vrLen = 541;
 		vrLoc = 716;
@@ -1281,7 +1299,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 46";
 		rLen = 0;
-		rLoc = 1014;
+		rLoc = 1053;
 		rType = 0;
 		vrLen = 694;
 		vrLoc = 21;
@@ -1301,7 +1319,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 46";
 		rLen = 0;
-		rLoc = 1014;
+		rLoc = 1053;
 		rType = 0;
 		vrLen = 683;
 		vrLoc = 32;
@@ -2570,7 +2588,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 115";
 		rLen = 0;
-		rLoc = 2392;
+		rLoc = 3495;
 		rType = 0;
 		vrLen = 603;
 		vrLoc = 1771;
@@ -2590,7 +2608,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 115";
 		rLen = 0;
-		rLoc = 2392;
+		rLoc = 3495;
 		rType = 0;
 		vrLen = 607;
 		vrLoc = 1771;
@@ -2610,7 +2628,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 115";
 		rLen = 0;
-		rLoc = 2392;
+		rLoc = 3495;
 		rType = 0;
 		vrLen = 603;
 		vrLoc = 1771;
@@ -3067,7 +3085,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 163";
 		rLen = 0;
-		rLoc = 6480;
+		rLoc = 7649;
 		rType = 0;
 		vrLen = 482;
 		vrLoc = 3401;
@@ -3077,7 +3095,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 163";
 		rLen = 0;
-		rLoc = 6480;
+		rLoc = 7649;
 		rType = 0;
 		vrLen = 436;
 		vrLoc = 173;
@@ -3117,7 +3135,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 163";
 		rLen = 0;
-		rLoc = 6480;
+		rLoc = 7649;
 		rType = 0;
 		vrLen = 436;
 		vrLoc = 173;
@@ -3197,7 +3215,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 126";
 		rLen = 29;
-		rLoc = 5233;
+		rLoc = 6402;
 		rType = 0;
 		vrLen = 579;
 		vrLoc = 2553;
@@ -3217,7 +3235,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 163";
 		rLen = 0;
-		rLoc = 6480;
+		rLoc = 7649;
 		rType = 0;
 		vrLen = 414;
 		vrLoc = 3469;
@@ -3237,7 +3255,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 126";
 		rLen = 29;
-		rLoc = 5233;
+		rLoc = 6402;
 		rType = 0;
 		vrLen = 579;
 		vrLoc = 2553;
@@ -3257,7 +3275,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 147";
 		rLen = 0;
-		rLoc = 5879;
+		rLoc = 7048;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 3092;
@@ -3267,7 +3285,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 139";
 		rLen = 0;
-		rLoc = 5229;
+		rLoc = 6398;
 		rType = 0;
 		vrLen = 660;
 		vrLoc = 3132;
@@ -3277,7 +3295,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 146";
 		rLen = 0;
-		rLoc = 5286;
+		rLoc = 6455;
 		rType = 0;
 		vrLen = 678;
 		vrLoc = 3132;
@@ -3344,16 +3362,16 @@
 	};
 	FD4602DE1043D6210066E232 /* ActiveZone.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {715, 350}}";
-			sepNavSelRange = "{369, 9}";
-			sepNavVisRange = "{3, 399}";
+			sepNavIntBoundsRect = "{{0, 0}, {715, 378}}";
+			sepNavSelRange = "{275, 0}";
+			sepNavVisRange = "{0, 418}";
 		};
 	};
 	FD4602DF1043D6210066E232 /* ActiveZone.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {715, 378}}";
-			sepNavSelRange = "{230, 0}";
-			sepNavVisRange = "{34, 398}";
+			sepNavIntBoundsRect = "{{0, 0}, {715, 490}}";
+			sepNavSelRange = "{470, 16}";
+			sepNavVisRange = "{193, 342}";
 		};
 	};
 	FD4602F21043DF110066E232 /* PBXTextBookmark */ = {
@@ -3391,7 +3409,7 @@
 		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
 		name = "ActiveZone.h: 22";
 		rLen = 9;
-		rLoc = 369;
+		rLoc = 435;
 		rType = 0;
 		vrLen = 399;
 		vrLoc = 3;
@@ -3401,7 +3419,7 @@
 		fRef = FD4602DF1043D6210066E232 /* ActiveZone.m */;
 		name = "ActiveZone.m: 13";
 		rLen = 0;
-		rLoc = 230;
+		rLoc = 237;
 		rType = 0;
 		vrLen = 398;
 		vrLoc = 34;
@@ -3461,7 +3479,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 35";
 		rLen = 0;
-		rLoc = 870;
+		rLoc = 909;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 392;
@@ -3471,7 +3489,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 149";
 		rLen = 0;
-		rLoc = 5268;
+		rLoc = 6437;
 		rType = 0;
 		vrLen = 562;
 		vrLoc = 3573;
@@ -3511,7 +3529,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 149";
 		rLen = 0;
-		rLoc = 5268;
+		rLoc = 6437;
 		rType = 0;
 		vrLen = 562;
 		vrLoc = 3573;
@@ -3521,7 +3539,7 @@
 		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
 		name = "ActiveZone.h: 22";
 		rLen = 42;
-		rLoc = 353;
+		rLoc = 419;
 		rType = 0;
 		vrLen = 407;
 		vrLoc = 0;
@@ -3531,7 +3549,7 @@
 		fRef = FD4602DF1043D6210066E232 /* ActiveZone.m */;
 		name = "ActiveZone.m: 21";
 		rLen = 0;
-		rLoc = 423;
+		rLoc = 466;
 		rType = 0;
 		vrLen = 398;
 		vrLoc = 0;
@@ -3541,7 +3559,7 @@
 		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
 		name = "ActiveZone.h: 22";
 		rLen = 42;
-		rLoc = 353;
+		rLoc = 419;
 		rType = 0;
 		vrLen = 409;
 		vrLoc = 3;
@@ -3551,7 +3569,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 35";
 		rLen = 0;
-		rLoc = 870;
+		rLoc = 909;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 392;
@@ -3561,7 +3579,7 @@
 		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
 		name = "ActiveZone.h: 22";
 		rLen = 42;
-		rLoc = 353;
+		rLoc = 419;
 		rType = 0;
 		vrLen = 409;
 		vrLoc = 3;
@@ -3571,7 +3589,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 149";
 		rLen = 0;
-		rLoc = 5268;
+		rLoc = 6437;
 		rType = 0;
 		vrLen = 562;
 		vrLoc = 3573;
@@ -3611,7 +3629,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 200";
 		rLen = 0;
-		rLoc = 6522;
+		rLoc = 7691;
 		rType = 0;
 		vrLen = 345;
 		vrLoc = 4627;
@@ -3631,7 +3649,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 122";
 		rLen = 0;
-		rLoc = 2392;
+		rLoc = 3495;
 		rType = 0;
 		vrLen = 357;
 		vrLoc = 2647;
@@ -3651,7 +3669,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 131";
 		rLen = 0;
-		rLoc = 2929;
+		rLoc = 4054;
 		rType = 0;
 		vrLen = 475;
 		vrLoc = 2563;
@@ -3671,7 +3689,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 130";
 		rLen = 0;
-		rLoc = 2328;
+		rLoc = 3495;
 		rType = 0;
 		vrLen = 517;
 		vrLoc = 2620;
@@ -3681,7 +3699,7 @@
 		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
 		name = "ActiveZone.h: 22";
 		rLen = 9;
-		rLoc = 369;
+		rLoc = 435;
 		rType = 0;
 		vrLen = 382;
 		vrLoc = 20;
@@ -3691,7 +3709,7 @@
 		fRef = FD4602DF1043D6210066E232 /* ActiveZone.m */;
 		name = "ActiveZone.m: 13";
 		rLen = 0;
-		rLoc = 257;
+		rLoc = 264;
 		rType = 0;
 		vrLen = 388;
 		vrLoc = 0;
@@ -3711,7 +3729,7 @@
 		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
 		name = "ActiveZone.h: 22";
 		rLen = 9;
-		rLoc = 369;
+		rLoc = 435;
 		rType = 0;
 		vrLen = 399;
 		vrLoc = 3;
@@ -3721,7 +3739,7 @@
 		fRef = FD4602DF1043D6210066E232 /* ActiveZone.m */;
 		name = "ActiveZone.m: 13";
 		rLen = 0;
-		rLoc = 230;
+		rLoc = 237;
 		rType = 0;
 		vrLen = 398;
 		vrLoc = 34;
@@ -3735,6 +3753,186 @@
 		rType = 0;
 		vrLen = 463;
 		vrLoc = 1416;
+	};
+	FD4603251043E7BB0066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
+		name = "CartesianInputView.h: 36";
+		rLen = 0;
+		rLoc = 909;
+		rType = 0;
+		vrLen = 580;
+		vrLoc = 404;
+	};
+	FD4603261043E7BB0066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
+		name = "ActiveZone.h: 18";
+		rLen = 0;
+		rLoc = 275;
+		rType = 0;
+		vrLen = 418;
+		vrLoc = 0;
+	};
+	FD4603271043E7BB0066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD4602DF1043D6210066E232 /* ActiveZone.m */;
+		name = "ActiveZone.m: 27";
+		rLen = 16;
+		rLoc = 470;
+		rType = 0;
+		vrLen = 342;
+		vrLoc = 193;
+	};
+	FD4603281043E7BB0066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
+		name = "CartesianInputView.m: 110";
+		rLen = 0;
+		rLoc = 3492;
+		rType = 0;
+		vrLen = 600;
+		vrLoc = 1925;
+	};
+	FD4603291043E7BB0066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
+		name = "CartesianInputView.m: 79";
+		rLen = 0;
+		rLoc = 1649;
+		rType = 0;
+		vrLen = 532;
+		vrLoc = 1660;
+	};
+	FD46032A1043E7BB0066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
+		name = "CartesianInputView.h: 35";
+		rLen = 0;
+		rLoc = 909;
+		rType = 0;
+		vrLen = 702;
+		vrLoc = 334;
+	};
+	FD46032B1043E7BB0066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
+		name = "CartesianInputView.m: 112";
+		rLen = 0;
+		rLoc = 3492;
+		rType = 0;
+		vrLen = 646;
+		vrLoc = 1811;
+	};
+	FD46032C1043E7BB0066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
+		name = "CartesianInputView.h: 36";
+		rLen = 0;
+		rLoc = 909;
+		rType = 0;
+		vrLen = 650;
+		vrLoc = 334;
+	};
+	FD46032D1043E7BB0066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
+		name = "CartesianInputView.m: 142";
+		rLen = 0;
+		rLoc = 4392;
+		rType = 0;
+		vrLen = 650;
+		vrLoc = 2677;
+	};
+	FD46032E1043E7BB0066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
+		name = "ActiveZone.h: 21";
+		rLen = 0;
+		rLoc = 417;
+		rType = 0;
+		vrLen = 440;
+		vrLoc = 3;
+	};
+	FD46032F1043E7BB0066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD4602DF1043D6210066E232 /* ActiveZone.m */;
+		name = "ActiveZone.m: 22";
+		rLen = 0;
+		rLoc = 434;
+		rType = 0;
+		vrLen = 437;
+		vrLoc = 31;
+	};
+	FD4603301043E7BB0066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
+		name = "ActiveZone.h: 18";
+		rLen = 0;
+		rLoc = 275;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	FD4603311043E7BB0066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD4602DF1043D6210066E232 /* ActiveZone.m */;
+		name = "ActiveZone.m: 13";
+		rLen = 0;
+		rLoc = 236;
+		rType = 0;
+		vrLen = 439;
+		vrLoc = 31;
+	};
+	FD4603321043E7BB0066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
+		name = "CartesianInputView.h: 36";
+		rLen = 0;
+		rLoc = 909;
+		rType = 0;
+		vrLen = 580;
+		vrLoc = 404;
+	};
+	FD4603331043E7BB0066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
+		name = "CartesianInputView.m: 110";
+		rLen = 0;
+		rLoc = 3492;
+		rType = 0;
+		vrLen = 668;
+		vrLoc = 1925;
+	};
+	FD4603341043E7BB0066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
+		name = "ActiveZone.h: 18";
+		rLen = 0;
+		rLoc = 275;
+		rType = 0;
+		vrLen = 418;
+		vrLoc = 0;
+	};
+	FD4603351043E7BB0066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD4602DF1043D6210066E232 /* ActiveZone.m */;
+		name = "ActiveZone.m: 27";
+		rLen = 16;
+		rLoc = 470;
+		rType = 0;
+		vrLen = 342;
+		vrLoc = 193;
+	};
+	FD4603361043E7BB0066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
+		name = "CartesianInputView.m: 103";
+		rLen = 0;
+		rLoc = 2132;
+		rType = 0;
+		vrLen = 499;
+		vrLoc = 1794;
 	};
 	FD89E25910340F4900765D11 /* shaker */ = {
 		isa = PBXExecutable;
