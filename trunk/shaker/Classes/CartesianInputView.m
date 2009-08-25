@@ -7,7 +7,7 @@
 //
 
 #import "CartesianInputView.h"
-
+#import "ActiveZone.h"
 
 @implementation CartesianInputView
 
@@ -17,9 +17,8 @@
     if (self = [super initWithFrame:frame]) {
 		numYQuantizations = 1;
 		numXQuantizations = 1;
-		lastNotifiedX = 0;
-		lastNotifiedY = 0;
 		hasReceivedTouch = NO;
+		zones = [[NSMutableArray array] retain];
     }
     return self;
 }
@@ -50,23 +49,15 @@
 	return numYQuantizations;
 }
 
-- (int) currentXSection
+- (int) xSectionForX:(float)xCoord
 {
 	float sectionLength = self.frame.size.width/self.numXQuantizations;
-	return floor(lastTouch.x/sectionLength);
+	return floor(xCoord/sectionLength);
 }
-- (int) currentYSection
+- (int) ySectionForY:(float)yCoord
 {
 	float sectionLength = self.frame.size.height/self.numYQuantizations;
-	return floor(lastTouch.y/sectionLength);
-}
-- (float) currentXPercent
-{
-	return lastTouch.x/self.frame.size.width;
-}
-- (float) currentYPercent
-{
-	return lastTouch.y/self.frame.size.height;
+	return floor(yCoord/sectionLength);
 }
 
 - (void) setNumXQuantizations:(int)xQuantizations
@@ -79,56 +70,128 @@
 	numYQuantizations = yQuantizations;
 }
 
-- (void) respondToTouches:(NSSet*)touches
+
+- (ActiveZone*) zoneForTouchPoint:(CGPoint)viewCoords
 {
-	hasReceivedTouch = YES;
+	int ySection = [self ySectionForY:viewCoords.y];
+	int xSection = [self xSectionForX:viewCoords.x];
 	
-	if([touches count] > 0)
+	for(int i = [zones count]-1; i >=0; i--)
 	{
-		NSArray * allTouches = [touches allObjects];
-		UITouch * firstTouch = [allTouches objectAtIndex:0];
-		lastTouch = [firstTouch locationInView:self];
-		
-		if([delegate respondsToSelector:@selector(inputView: movedToXSection: ySection:)])
+		ActiveZone * zone = [zones objectAtIndex:i];
+		if(zone.xIndex == xSection && zone.yIndex == ySection)
 		{
-			BOOL shouldUpdate = lastNotifiedX != [self currentXSection] || lastNotifiedY != [self currentYSection];
-			
-			if(shouldUpdate)
-			{
-				lastNotifiedX = [self currentXSection];
-				lastNotifiedY = [self currentYSection];
-				[delegate inputView:self movedToXSection:lastNotifiedX ySection:lastNotifiedY];
-				[self setNeedsDisplay];
-			}
+			return zone;
 		}
-			
-		if([delegate respondsToSelector:@selector(inputView: movedToXPercent: yPercent:)])
-		{
-			[delegate inputView:self movedToXPercent:[self currentXPercent] yPercent:[self currentYPercent]];
-		}
-		
 	}
+	
+	return nil;
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-	[self respondToTouches:touches];
+	hasReceivedTouch = YES;
+	
+	NSArray * allTouches = [touches allObjects];
+	UITouch * firstTouch = [allTouches objectAtIndex:0];
+	
+	CGPoint touchPoint = [firstTouch locationInView:self];
+	ActiveZone * tappedZone = [self zoneForTouchPoint:touchPoint];
+	
+	if(tappedZone != nil)
+	{
+		selectedZone = tappedZone;
+	}else
+	{
+		ActiveZone * newZone = [ActiveZone zoneWithX:[self xSectionForX:touchPoint.x] Y:[self ySectionForY:touchPoint.y]];
+		[zones addObject:newZone];
+		selectedZone = newZone;
+		[self setNeedsDisplay];
+	}
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
-	[self respondToTouches:touches];
+	if(selectedZone != nil)
+	{
+		NSArray * allTouches = [touches allObjects];
+		UITouch * firstTouch = [allTouches objectAtIndex:0];
+		CGPoint touchPoint = [firstTouch locationInView:self];
+		int xSection = [self xSectionForX:touchPoint.x];
+		int ySection = [self ySectionForY:touchPoint.y];
+		if(selectedZone.xIndex != xSection || selectedZone.yIndex != ySection)
+		{
+			selectedZone.xIndex = xSection;
+			selectedZone.yIndex = ySection;
+			[self setNeedsDisplay];
+		}
+	}
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
-	[self respondToTouches:touches];
+	selectedZone = nil;
 }
 
-- (void) drawSelectedRect
+- (UIColor*) colorForZone:(ActiveZone*)theZone
 {
-	CGPoint begin = CGPointMake([self currentXSection]*(self.frame.size.width/self.numXQuantizations), [self currentYSection]*(self.frame.size.height/self.numYQuantizations));
-	CGPoint end = CGPointMake(begin.x + (self.frame.size.width/self.numXQuantizations), begin.y + (self.frame.size.height/self.numYQuantizations));
+	int index = [zones indexOfObject:theZone];
+	int numColors = 5;
+	switch(index%numColors)
+	{
+		case 0:
+			return [UIColor redColor];
+		case 1:
+			return [UIColor blueColor];
+		case 2:
+			return [UIColor orangeColor];
+		case 3:
+			return [UIColor purpleColor];
+		case 4:
+			return [UIColor yellowColor];
+	}
+	
+	return [UIColor redColor];
+}
+
+- (NSArray*) zonesWithZone:(ActiveZone*)theZone
+{
+	NSMutableArray * result = [NSMutableArray array];
+	
+	for(int i = 0; i < [zones count]; i++)
+	{
+		ActiveZone * current = [zones objectAtIndex:i];
+		if(current.xIndex == theZone.xIndex && current.yIndex == theZone.yIndex)
+		{
+			[result addObject:current];
+		}
+	}
+	
+	return result;
+}
+
+- (int) indexOfZone:(ActiveZone*)theZone
+{
+	NSArray * neighbors = [self zonesWithZone:theZone];
+	return [neighbors indexOfObject:theZone];
+}
+
+- (void) drawZone:(ActiveZone*)theZone
+{
+	UIColor * theColor = [self colorForZone:theZone];
+	int index = [self indexOfZone:theZone];
+	float xSectionLength = self.frame.size.width/self.numXQuantizations;
+	float ySectionLength = self.frame.size.height/self.numYQuantizations;
+	
+	CGPoint begin = CGPointMake(theZone.xIndex*xSectionLength, theZone.yIndex*ySectionLength);
+	CGPoint end = CGPointMake(begin.x + xSectionLength, begin.y + ySectionLength);
+	
+	float insetPercent = 0.1;
+	float xInset = index*insetPercent*xSectionLength/2.0;
+	float yInset = index*insetPercent*ySectionLength/2.0;
+	
+	begin = CGPointMake(begin.x+xInset, begin.y+yInset);
+	end = CGPointMake(end.x - xInset, end.y - yInset);
 	
 	CGContextRef context = UIGraphicsGetCurrentContext(); 
 	CGContextBeginPath (context); 
@@ -139,10 +202,19 @@
 	CGContextAddLineToPoint (context, begin.x, begin.y); 
 	CGContextClosePath (context);
 	
-	[[UIColor redColor] setFill];
+	[theColor setFill];
 	[[UIColor blackColor] setStroke]; 
 	
 	CGContextDrawPath (context, kCGPathFillStroke); 
+}
+
+- (void) drawSelectedRects
+{
+	for(int i = 0; i < [zones count]; i++)
+	{
+		ActiveZone * zone = [zones objectAtIndex:i];
+		[self drawZone:zone];
+	}
 }
 
 - (void)drawRect:(CGRect)rect {
@@ -190,12 +262,14 @@
 	
 	if(hasReceivedTouch)
 	{
-		[self drawSelectedRect];
+		[self drawSelectedRects];
 	}
 }
 
 
 - (void)dealloc {
+	[zones release];
+	
     [super dealloc];
 }
 

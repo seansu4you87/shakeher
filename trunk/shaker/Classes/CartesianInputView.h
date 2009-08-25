@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@class CartesianInputView;
+@class CartesianInputView, ActiveZone;
 
 @protocol CartesianInputViewDelegate<NSObject>
 @optional
@@ -28,19 +28,13 @@
 	int numXQuantizations;
 	int numYQuantizations;
 	
-	int lastNotifiedX;
-	int lastNotifiedY;
+	NSMutableArray * zones;
+	ActiveZone * selectedZone;
 	
-	CGPoint lastTouch;
 	BOOL hasReceivedTouch;
 }
 
 @property(nonatomic, assign) int numYQuantizations, numXQuantizations;
 @property(nonatomic, assign) id<CartesianInputViewDelegate> delegate;
-
-- (int) currentXSection;
-- (int) currentYSection;
-- (float) currentXPercent;
-- (float) currentYPercent;
 
 @end
