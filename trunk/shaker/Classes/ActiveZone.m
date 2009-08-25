@@ -10,7 +10,7 @@
 
 @implementation ActiveZone
 
-@synthesize xIndex, yIndex, isActive, color;
+@synthesize xIndex, yIndex, isActive, color, xPercent, yPercent;
 
 + (ActiveZone*) zoneWithX:(int)x Y:(int)y
 {

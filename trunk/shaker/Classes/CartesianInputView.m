@@ -135,6 +135,8 @@
 {
 	ActiveZone * newZone = [ActiveZone zoneWithX:[self xSectionForX:touchPoint.x] Y:[self ySectionForY:touchPoint.y]];
 	newZone.color = [self colorForNewZone];
+	newZone.xPercent = touchPoint.x/self.frame.size.width;
+	newZone.yPercent = touchPoint.y/self.frame.size.height;
 	[zones addObject:newZone];
 	selectedZone = newZone;
 	[self setNeedsDisplay];
@@ -172,6 +174,10 @@
 		CGPoint touchPoint = [firstTouch locationInView:self];
 		int xSection = [self xSectionForX:touchPoint.x];
 		int ySection = [self ySectionForY:touchPoint.y];
+		
+		selectedZone.xPercent = touchPoint.x/self.frame.size.width;
+		selectedZone.yPercent = touchPoint.y/self.frame.size.height;
+		
 		if(selectedZone.xIndex != xSection || selectedZone.yIndex != ySection)
 		{
 			selectedZone.xIndex = xSection;

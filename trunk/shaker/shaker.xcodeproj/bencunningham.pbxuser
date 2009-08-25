@@ -30,9 +30,9 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* shakerViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {756, 1890}}";
-			sepNavSelRange = "{1330, 0}";
-			sepNavVisRange = "{0, 363}";
+			sepNavIntBoundsRect = "{{0, 0}, {756, 1834}}";
+			sepNavSelRange = "{2279, 0}";
+			sepNavVisRange = "{2078, 362}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -455,6 +455,43 @@
 			FD4603421043E8450066E232 /* PBXTextBookmark */ = FD4603421043E8450066E232 /* PBXTextBookmark */;
 			FD4603431043E8450066E232 /* PBXTextBookmark */ = FD4603431043E8450066E232 /* PBXTextBookmark */;
 			FD4603441043E8460066E232 /* PBXTextBookmark */ = FD4603441043E8460066E232 /* PBXTextBookmark */;
+			FD46035C1043F0E00066E232 /* PBXTextBookmark */ = FD46035C1043F0E00066E232 /* PBXTextBookmark */;
+			FD46035D1043F0E00066E232 /* PBXTextBookmark */ = FD46035D1043F0E00066E232 /* PBXTextBookmark */;
+			FD46035E1043F0E00066E232 /* PBXTextBookmark */ = FD46035E1043F0E00066E232 /* PBXTextBookmark */;
+			FD46035F1043F0E00066E232 /* PBXTextBookmark */ = FD46035F1043F0E00066E232 /* PBXTextBookmark */;
+			FD4603601043F0E00066E232 /* PBXTextBookmark */ = FD4603601043F0E00066E232 /* PBXTextBookmark */;
+			FD4603611043F0E00066E232 /* PBXTextBookmark */ = FD4603611043F0E00066E232 /* PBXTextBookmark */;
+			FD4603621043F0E00066E232 /* PBXTextBookmark */ = FD4603621043F0E00066E232 /* PBXTextBookmark */;
+			FD4603631043F0E00066E232 /* PBXTextBookmark */ = FD4603631043F0E00066E232 /* PBXTextBookmark */;
+			FD4603641043F0E00066E232 /* PBXTextBookmark */ = FD4603641043F0E00066E232 /* PBXTextBookmark */;
+			FD4603651043F0E00066E232 /* PBXTextBookmark */ = FD4603651043F0E00066E232 /* PBXTextBookmark */;
+			FD4603661043F0E00066E232 /* PBXTextBookmark */ = FD4603661043F0E00066E232 /* PBXTextBookmark */;
+			FD4603671043F0E00066E232 /* PBXTextBookmark */ = FD4603671043F0E00066E232 /* PBXTextBookmark */;
+			FD4603681043F0E00066E232 /* PBXTextBookmark */ = FD4603681043F0E00066E232 /* PBXTextBookmark */;
+			FD4603691043F0E00066E232 /* PBXTextBookmark */ = FD4603691043F0E00066E232 /* PBXTextBookmark */;
+			FD46036A1043F0E00066E232 /* PBXTextBookmark */ = FD46036A1043F0E00066E232 /* PBXTextBookmark */;
+			FD46036B1043F0E00066E232 /* PBXTextBookmark */ = FD46036B1043F0E00066E232 /* PBXTextBookmark */;
+			FD46036C1043F0E00066E232 /* PBXTextBookmark */ = FD46036C1043F0E00066E232 /* PBXTextBookmark */;
+			FD46036D1043F0E00066E232 /* PBXTextBookmark */ = FD46036D1043F0E00066E232 /* PBXTextBookmark */;
+			FD46036E1043F0E00066E232 /* PBXTextBookmark */ = FD46036E1043F0E00066E232 /* PBXTextBookmark */;
+			FD46036F1043F0E00066E232 /* PBXTextBookmark */ = FD46036F1043F0E00066E232 /* PBXTextBookmark */;
+			FD4603701043F0E00066E232 /* PBXTextBookmark */ = FD4603701043F0E00066E232 /* PBXTextBookmark */;
+			FD4603711043F0E00066E232 /* PBXTextBookmark */ = FD4603711043F0E00066E232 /* PBXTextBookmark */;
+			FD4603721043F0E00066E232 /* PBXTextBookmark */ = FD4603721043F0E00066E232 /* PBXTextBookmark */;
+			FD4603731043F0E00066E232 /* PBXTextBookmark */ = FD4603731043F0E00066E232 /* PBXTextBookmark */;
+			FD4603741043F0E00066E232 /* PBXTextBookmark */ = FD4603741043F0E00066E232 /* PBXTextBookmark */;
+			FD4603751043F0E00066E232 /* PBXTextBookmark */ = FD4603751043F0E00066E232 /* PBXTextBookmark */;
+			FD4603761043F0E00066E232 /* PBXTextBookmark */ = FD4603761043F0E00066E232 /* PBXTextBookmark */;
+			FD4603771043F0E00066E232 /* PBXTextBookmark */ = FD4603771043F0E00066E232 /* PBXTextBookmark */;
+			FD4603781043F0E00066E232 /* PBXTextBookmark */ = FD4603781043F0E00066E232 /* PBXTextBookmark */;
+			FD4603791043F0E00066E232 /* PBXTextBookmark */ = FD4603791043F0E00066E232 /* PBXTextBookmark */;
+			FD46037A1043F0E00066E232 /* PBXTextBookmark */ = FD46037A1043F0E00066E232 /* PBXTextBookmark */;
+			FD46037B1043F0E00066E232 /* PBXTextBookmark */ = FD46037B1043F0E00066E232 /* PBXTextBookmark */;
+			FD46037C1043F0E00066E232 /* PBXTextBookmark */ = FD46037C1043F0E00066E232 /* PBXTextBookmark */;
+			FD46037D1043F0E00066E232 /* PBXTextBookmark */ = FD46037D1043F0E00066E232 /* PBXTextBookmark */;
+			FD46037E1043F0E00066E232 /* PBXTextBookmark */ = FD46037E1043F0E00066E232 /* PBXTextBookmark */;
+			FD46037F1043F0E00066E232 /* PBXTextBookmark */ = FD46037F1043F0E00066E232 /* PBXTextBookmark */;
+			FD4603801043F0E00066E232 /* PBXTextBookmark */ = FD4603801043F0E00066E232 /* PBXTextBookmark */;
 		};
 		sourceControlManager = FD89E26510340F5000765D11 /* Source Control */;
 		userBuildSettings = {
@@ -469,9 +506,9 @@
 	};
 	FD38B0B510434E4E00848695 /* Shaker.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {715, 1540}}";
-			sepNavSelRange = "{191, 0}";
-			sepNavVisRange = "{3, 337}";
+			sepNavIntBoundsRect = "{{0, 0}, {780, 1526}}";
+			sepNavSelRange = "{192, 0}";
+			sepNavVisRange = "{358, 440}";
 		};
 	};
 	FD38B0C31043543300848695 /* PBXTextBookmark */ = {
@@ -1043,9 +1080,9 @@
 	};
 	FD46017B1043BE070066E232 /* CartesianInputView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {829, 4634}}";
-			sepNavSelRange = "{4430, 0}";
-			sepNavVisRange = "{4126, 454}";
+			sepNavIntBoundsRect = "{{0, 0}, {829, 4774}}";
+			sepNavSelRange = "{4664, 0}";
+			sepNavVisRange = "{3939, 523}";
 		};
 	};
 	FD4601971043C8FC0066E232 /* PBXTextBookmark */ = {
@@ -2600,7 +2637,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 115";
 		rLen = 0;
-		rLoc = 3495;
+		rLoc = 3608;
 		rType = 0;
 		vrLen = 603;
 		vrLoc = 1771;
@@ -2620,7 +2657,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 115";
 		rLen = 0;
-		rLoc = 3495;
+		rLoc = 3608;
 		rType = 0;
 		vrLen = 607;
 		vrLoc = 1771;
@@ -2640,7 +2677,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 115";
 		rLen = 0;
-		rLoc = 3495;
+		rLoc = 3608;
 		rType = 0;
 		vrLen = 603;
 		vrLoc = 1771;
@@ -3097,7 +3134,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 163";
 		rLen = 0;
-		rLoc = 7649;
+		rLoc = 7893;
 		rType = 0;
 		vrLen = 482;
 		vrLoc = 3401;
@@ -3107,7 +3144,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 163";
 		rLen = 0;
-		rLoc = 7649;
+		rLoc = 7893;
 		rType = 0;
 		vrLen = 436;
 		vrLoc = 173;
@@ -3147,7 +3184,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 163";
 		rLen = 0;
-		rLoc = 7649;
+		rLoc = 7893;
 		rType = 0;
 		vrLen = 436;
 		vrLoc = 173;
@@ -3227,7 +3264,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 126";
 		rLen = 29;
-		rLoc = 6402;
+		rLoc = 6646;
 		rType = 0;
 		vrLen = 579;
 		vrLoc = 2553;
@@ -3247,7 +3284,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 163";
 		rLen = 0;
-		rLoc = 7649;
+		rLoc = 7893;
 		rType = 0;
 		vrLen = 414;
 		vrLoc = 3469;
@@ -3267,7 +3304,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 126";
 		rLen = 29;
-		rLoc = 6402;
+		rLoc = 6646;
 		rType = 0;
 		vrLen = 579;
 		vrLoc = 2553;
@@ -3287,7 +3324,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 147";
 		rLen = 0;
-		rLoc = 7048;
+		rLoc = 7292;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 3092;
@@ -3297,7 +3334,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 139";
 		rLen = 0;
-		rLoc = 6398;
+		rLoc = 6642;
 		rType = 0;
 		vrLen = 660;
 		vrLoc = 3132;
@@ -3307,7 +3344,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 146";
 		rLen = 0;
-		rLoc = 6455;
+		rLoc = 6699;
 		rType = 0;
 		vrLen = 678;
 		vrLoc = 3132;
@@ -3374,16 +3411,16 @@
 	};
 	FD4602DE1043D6210066E232 /* ActiveZone.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {715, 378}}";
-			sepNavSelRange = "{275, 0}";
-			sepNavVisRange = "{0, 418}";
+			sepNavIntBoundsRect = "{{0, 0}, {715, 448}}";
+			sepNavSelRange = "{418, 0}";
+			sepNavVisRange = "{141, 418}";
 		};
 	};
 	FD4602DF1043D6210066E232 /* ActiveZone.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {715, 490}}";
-			sepNavSelRange = "{470, 16}";
-			sepNavVisRange = "{193, 342}";
+			sepNavSelRange = "{256, 0}";
+			sepNavVisRange = "{0, 457}";
 		};
 	};
 	FD4602F21043DF110066E232 /* PBXTextBookmark */ = {
@@ -3421,7 +3458,7 @@
 		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
 		name = "ActiveZone.h: 22";
 		rLen = 9;
-		rLoc = 435;
+		rLoc = 526;
 		rType = 0;
 		vrLen = 399;
 		vrLoc = 3;
@@ -3431,7 +3468,7 @@
 		fRef = FD4602DF1043D6210066E232 /* ActiveZone.m */;
 		name = "ActiveZone.m: 13";
 		rLen = 0;
-		rLoc = 237;
+		rLoc = 257;
 		rType = 0;
 		vrLen = 398;
 		vrLoc = 34;
@@ -3501,7 +3538,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 149";
 		rLen = 0;
-		rLoc = 6437;
+		rLoc = 6681;
 		rType = 0;
 		vrLen = 562;
 		vrLoc = 3573;
@@ -3541,7 +3578,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 149";
 		rLen = 0;
-		rLoc = 6437;
+		rLoc = 6681;
 		rType = 0;
 		vrLen = 562;
 		vrLoc = 3573;
@@ -3551,7 +3588,7 @@
 		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
 		name = "ActiveZone.h: 22";
 		rLen = 42;
-		rLoc = 419;
+		rLoc = 510;
 		rType = 0;
 		vrLen = 407;
 		vrLoc = 0;
@@ -3561,7 +3598,7 @@
 		fRef = FD4602DF1043D6210066E232 /* ActiveZone.m */;
 		name = "ActiveZone.m: 21";
 		rLen = 0;
-		rLoc = 466;
+		rLoc = 486;
 		rType = 0;
 		vrLen = 398;
 		vrLoc = 0;
@@ -3571,7 +3608,7 @@
 		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
 		name = "ActiveZone.h: 22";
 		rLen = 42;
-		rLoc = 419;
+		rLoc = 510;
 		rType = 0;
 		vrLen = 409;
 		vrLoc = 3;
@@ -3591,7 +3628,7 @@
 		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
 		name = "ActiveZone.h: 22";
 		rLen = 42;
-		rLoc = 419;
+		rLoc = 510;
 		rType = 0;
 		vrLen = 409;
 		vrLoc = 3;
@@ -3601,7 +3638,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 149";
 		rLen = 0;
-		rLoc = 6437;
+		rLoc = 6681;
 		rType = 0;
 		vrLen = 562;
 		vrLoc = 3573;
@@ -3641,7 +3678,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 200";
 		rLen = 0;
-		rLoc = 7691;
+		rLoc = 7935;
 		rType = 0;
 		vrLen = 345;
 		vrLoc = 4627;
@@ -3661,7 +3698,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 122";
 		rLen = 0;
-		rLoc = 3495;
+		rLoc = 3608;
 		rType = 0;
 		vrLen = 357;
 		vrLoc = 2647;
@@ -3681,7 +3718,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 131";
 		rLen = 0;
-		rLoc = 4054;
+		rLoc = 4298;
 		rType = 0;
 		vrLen = 475;
 		vrLoc = 2563;
@@ -3701,7 +3738,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 130";
 		rLen = 0;
-		rLoc = 3495;
+		rLoc = 3608;
 		rType = 0;
 		vrLen = 517;
 		vrLoc = 2620;
@@ -3711,7 +3748,7 @@
 		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
 		name = "ActiveZone.h: 22";
 		rLen = 9;
-		rLoc = 435;
+		rLoc = 526;
 		rType = 0;
 		vrLen = 382;
 		vrLoc = 20;
@@ -3721,7 +3758,7 @@
 		fRef = FD4602DF1043D6210066E232 /* ActiveZone.m */;
 		name = "ActiveZone.m: 13";
 		rLen = 0;
-		rLoc = 264;
+		rLoc = 284;
 		rType = 0;
 		vrLen = 388;
 		vrLoc = 0;
@@ -3741,7 +3778,7 @@
 		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
 		name = "ActiveZone.h: 22";
 		rLen = 9;
-		rLoc = 435;
+		rLoc = 526;
 		rType = 0;
 		vrLen = 399;
 		vrLoc = 3;
@@ -3751,7 +3788,7 @@
 		fRef = FD4602DF1043D6210066E232 /* ActiveZone.m */;
 		name = "ActiveZone.m: 13";
 		rLen = 0;
-		rLoc = 237;
+		rLoc = 257;
 		rType = 0;
 		vrLen = 398;
 		vrLoc = 34;
@@ -3781,7 +3818,7 @@
 		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
 		name = "ActiveZone.h: 18";
 		rLen = 0;
-		rLoc = 275;
+		rLoc = 311;
 		rType = 0;
 		vrLen = 418;
 		vrLoc = 0;
@@ -3791,7 +3828,7 @@
 		fRef = FD4602DF1043D6210066E232 /* ActiveZone.m */;
 		name = "ActiveZone.m: 27";
 		rLen = 16;
-		rLoc = 470;
+		rLoc = 490;
 		rType = 0;
 		vrLen = 342;
 		vrLoc = 193;
@@ -3801,7 +3838,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 110";
 		rLen = 0;
-		rLoc = 3492;
+		rLoc = 3605;
 		rType = 0;
 		vrLen = 600;
 		vrLoc = 1925;
@@ -3831,7 +3868,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 112";
 		rLen = 0;
-		rLoc = 3492;
+		rLoc = 3605;
 		rType = 0;
 		vrLen = 646;
 		vrLoc = 1811;
@@ -3851,7 +3888,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 142";
 		rLen = 0;
-		rLoc = 4392;
+		rLoc = 4636;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 2677;
@@ -3861,7 +3898,7 @@
 		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
 		name = "ActiveZone.h: 21";
 		rLen = 0;
-		rLoc = 417;
+		rLoc = 508;
 		rType = 0;
 		vrLen = 440;
 		vrLoc = 3;
@@ -3871,7 +3908,7 @@
 		fRef = FD4602DF1043D6210066E232 /* ActiveZone.m */;
 		name = "ActiveZone.m: 22";
 		rLen = 0;
-		rLoc = 434;
+		rLoc = 454;
 		rType = 0;
 		vrLen = 437;
 		vrLoc = 31;
@@ -3881,7 +3918,7 @@
 		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
 		name = "ActiveZone.h: 18";
 		rLen = 0;
-		rLoc = 275;
+		rLoc = 311;
 		rType = 0;
 		vrLen = 419;
 		vrLoc = 0;
@@ -3891,7 +3928,7 @@
 		fRef = FD4602DF1043D6210066E232 /* ActiveZone.m */;
 		name = "ActiveZone.m: 13";
 		rLen = 0;
-		rLoc = 236;
+		rLoc = 256;
 		rType = 0;
 		vrLen = 439;
 		vrLoc = 31;
@@ -3911,7 +3948,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 110";
 		rLen = 0;
-		rLoc = 3492;
+		rLoc = 3605;
 		rType = 0;
 		vrLen = 668;
 		vrLoc = 1925;
@@ -3921,7 +3958,7 @@
 		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
 		name = "ActiveZone.h: 18";
 		rLen = 0;
-		rLoc = 275;
+		rLoc = 311;
 		rType = 0;
 		vrLen = 418;
 		vrLoc = 0;
@@ -3931,7 +3968,7 @@
 		fRef = FD4602DF1043D6210066E232 /* ActiveZone.m */;
 		name = "ActiveZone.m: 27";
 		rLen = 16;
-		rLoc = 470;
+		rLoc = 490;
 		rType = 0;
 		vrLen = 342;
 		vrLoc = 193;
@@ -3981,7 +4018,7 @@
 		comments = "warning: 'ActiveZone' may not respond to '+zoneForX:Y:'";
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		rLen = 1;
-		rLoc = 160;
+		rLoc = 162;
 		rType = 1;
 	};
 	FD46033D1043E8450066E232 /* PBXTextBookmark */ = {
@@ -4029,7 +4066,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 249";
 		rLen = 5;
-		rLoc = 7717;
+		rLoc = 7961;
 		rType = 0;
 		vrLen = 103;
 		vrLoc = 5889;
@@ -4049,7 +4086,7 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 194";
 		rLen = 0;
-		rLoc = 4430;
+		rLoc = 4674;
 		rType = 0;
 		vrLen = 454;
 		vrLoc = 4126;
@@ -4059,10 +4096,380 @@
 		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
 		name = "CartesianInputView.m: 194";
 		rLen = 0;
-		rLoc = 4430;
+		rLoc = 4674;
 		rType = 0;
 		vrLen = 454;
 		vrLoc = 4126;
+	};
+	FD46035C1043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
+		name = "CartesianInputView.h: 17";
+		rLen = 0;
+		rLoc = 404;
+		rType = 0;
+		vrLen = 447;
+		vrLoc = 254;
+	};
+	FD46035D1043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD38B0B410434E4E00848695 /* Shaker.h */;
+		name = "Shaker.h: 26";
+		rLen = 0;
+		rLoc = 542;
+		rType = 0;
+		vrLen = 410;
+		vrLoc = 0;
+	};
+	FD46035E1043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
+		name = "Shaker.m: 11";
+		rLen = 0;
+		rLoc = 192;
+		rType = 0;
+		vrLen = 440;
+		vrLoc = 358;
+	};
+	FD46035F1043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
+		name = "ActiveZone.h: 25";
+		rLen = 0;
+		rLoc = 418;
+		rType = 0;
+		vrLen = 418;
+		vrLoc = 141;
+	};
+	FD4603601043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD4602DF1043D6210066E232 /* ActiveZone.m */;
+		name = "ActiveZone.m: 13";
+		rLen = 0;
+		rLoc = 256;
+		rType = 0;
+		vrLen = 457;
+		vrLoc = 0;
+	};
+	FD4603611043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
+		name = "CartesianInputView.m: 180";
+		rLen = 0;
+		rLoc = 4120;
+		rType = 0;
+		vrLen = 683;
+		vrLoc = 3611;
+	};
+	FD4603621043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
+		name = "shakerViewController.h: 15";
+		rLen = 0;
+		rLoc = 363;
+		rType = 0;
+		vrLen = 424;
+		vrLoc = 0;
+	};
+	FD4603631043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
+		name = "shakerViewController.m: 87";
+		rLen = 0;
+		rLoc = 2194;
+		rType = 0;
+		vrLen = 746;
+		vrLoc = 1367;
+	};
+	FD4603641043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
+		name = "CartesianInputView.m: 103";
+		rLen = 0;
+		rLoc = 2132;
+		rType = 0;
+		vrLen = 499;
+		vrLoc = 1794;
+	};
+	FD4603651043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
+		name = "shakerViewController.h: 14";
+		rLen = 0;
+		rLoc = 364;
+		rType = 0;
+		vrLen = 400;
+		vrLoc = 0;
+	};
+	FD4603661043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
+		name = "shakerViewController.m: 46";
+		rLen = 0;
+		rLoc = 1998;
+		rType = 0;
+		vrLen = 623;
+		vrLoc = 686;
+	};
+	FD4603671043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
+		name = "shakerViewController.h: 15";
+		rLen = 0;
+		rLoc = 363;
+		rType = 0;
+		vrLen = 424;
+		vrLoc = 0;
+	};
+	FD4603681043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
+		name = "shakerViewController.m: 93";
+		rLen = 0;
+		rLoc = 2282;
+		rType = 0;
+		vrLen = 332;
+		vrLoc = 2051;
+	};
+	FD4603691043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
+		name = "CartesianInputView.h: 36";
+		rLen = 0;
+		rLoc = 697;
+		rType = 0;
+		vrLen = 580;
+		vrLoc = 404;
+	};
+	FD46036A1043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
+		name = "shakerViewController.h: 15";
+		rLen = 0;
+		rLoc = 363;
+		rType = 0;
+		vrLen = 424;
+		vrLoc = 0;
+	};
+	FD46036B1043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
+		name = "CartesianInputView.h: 17";
+		rLen = 0;
+		rLoc = 404;
+		rType = 0;
+		vrLen = 447;
+		vrLoc = 254;
+	};
+	FD46036C1043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
+		name = "shakerViewController.m: 35";
+		rLen = 0;
+		rLoc = 713;
+		rType = 0;
+		vrLen = 579;
+		vrLoc = 2223;
+	};
+	FD46036D1043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
+		name = "shakerViewController.h: 15";
+		rLen = 0;
+		rLoc = 363;
+		rType = 0;
+		vrLen = 424;
+		vrLoc = 0;
+	};
+	FD46036E1043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
+		name = "shakerViewController.m: 35";
+		rLen = 0;
+		rLoc = 713;
+		rType = 0;
+		vrLen = 579;
+		vrLoc = 2223;
+	};
+	FD46036F1043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
+		name = "CartesianInputView.m: 103";
+		rLen = 0;
+		rLoc = 2132;
+		rType = 0;
+		vrLen = 426;
+		vrLoc = 2293;
+	};
+	FD4603701043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
+		name = "shakerViewController.m: 70";
+		rLen = 0;
+		rLoc = 1809;
+		rType = 0;
+		vrLen = 363;
+		vrLoc = 0;
+	};
+	FD4603711043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD38B0B410434E4E00848695 /* Shaker.h */;
+		name = "Shaker.h: 26";
+		rLen = 0;
+		rLoc = 542;
+		rType = 0;
+		vrLen = 410;
+		vrLoc = 0;
+	};
+	FD4603721043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
+		name = "Shaker.m: 12";
+		rLen = 0;
+		rLoc = 214;
+		rType = 0;
+		vrLen = 337;
+		vrLoc = 3;
+	};
+	FD4603731043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
+		name = "shakerViewController.m: 57";
+		rLen = 0;
+		rLoc = 1330;
+		rType = 0;
+		vrLen = 363;
+		vrLoc = 0;
+	};
+	FD4603741043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
+		name = "Shaker.m: 11";
+		rLen = 0;
+		rLoc = 192;
+		rType = 0;
+		vrLen = 442;
+		vrLoc = 358;
+	};
+	FD4603751043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
+		name = "shakerViewController.m: 87";
+		rLen = 0;
+		rLoc = 2194;
+		rType = 0;
+		vrLen = 746;
+		vrLoc = 1367;
+	};
+	FD4603761043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
+		name = "shakerViewController.h: 15";
+		rLen = 0;
+		rLoc = 363;
+		rType = 0;
+		vrLen = 424;
+		vrLoc = 0;
+	};
+	FD4603771043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD38B0B410434E4E00848695 /* Shaker.h */;
+		name = "Shaker.h: 26";
+		rLen = 0;
+		rLoc = 542;
+		rType = 0;
+		vrLen = 410;
+		vrLoc = 0;
+	};
+	FD4603781043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
+		name = "Shaker.m: 11";
+		rLen = 0;
+		rLoc = 192;
+		rType = 0;
+		vrLen = 440;
+		vrLoc = 358;
+	};
+	FD4603791043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
+		name = "ActiveZone.h: 25";
+		rLen = 0;
+		rLoc = 418;
+		rType = 0;
+		vrLen = 418;
+		vrLoc = 141;
+	};
+	FD46037A1043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD4602DF1043D6210066E232 /* ActiveZone.m */;
+		name = "ActiveZone.m: 27";
+		rLen = 16;
+		rLoc = 490;
+		rType = 0;
+		vrLen = 343;
+		vrLoc = 192;
+	};
+	FD46037B1043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
+		name = "CartesianInputView.m: 138";
+		rLen = 0;
+		rLoc = 2938;
+		rType = 0;
+		vrLen = 592;
+		vrLoc = 2512;
+	};
+	FD46037C1043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD4602DE1043D6210066E232 /* ActiveZone.h */;
+		name = "ActiveZone.h: 25";
+		rLen = 0;
+		rLoc = 418;
+		rType = 0;
+		vrLen = 418;
+		vrLoc = 141;
+	};
+	FD46037D1043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD4602DF1043D6210066E232 /* ActiveZone.m */;
+		name = "ActiveZone.m: 13";
+		rLen = 0;
+		rLoc = 256;
+		rType = 0;
+		vrLen = 457;
+		vrLoc = 0;
+	};
+	FD46037E1043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
+		name = "CartesianInputView.m: 180";
+		rLen = 0;
+		rLoc = 4120;
+		rType = 0;
+		vrLen = 683;
+		vrLoc = 3611;
+	};
+	FD46037F1043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
+		name = "shakerViewController.h: 15";
+		rLen = 0;
+		rLoc = 363;
+		rType = 0;
+		vrLen = 424;
+		vrLoc = 0;
+	};
+	FD4603801043F0E00066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
+		name = "shakerViewController.m: 92";
+		rLen = 0;
+		rLoc = 2279;
+		rType = 0;
+		vrLen = 362;
+		vrLoc = 2078;
 	};
 	FD89E25910340F4900765D11 /* shaker */ = {
 		isa = PBXExecutable;

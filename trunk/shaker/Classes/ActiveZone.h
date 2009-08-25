@@ -10,6 +10,9 @@
 
 
 @interface ActiveZone : NSObject {
+	float xPercent;
+	float yPercent;
+	
 	int xIndex;
 	int yIndex;
 	
@@ -19,6 +22,7 @@
 }
 
 @property(nonatomic, assign) int xIndex, yIndex;
+@property(nonatomic, assign) float xPercent, yPercent;
 @property(nonatomic, assign) BOOL isActive;
 @property(nonatomic, retain) UIColor * color;
 

@@ -230,6 +230,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -274,8 +276,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>9</integer>
-									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -310,14 +310,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CartesianInputView.m</string>
+								<string>shakerViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,24 +323,24 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CartesianInputView.m</string>
+										<string>shakerViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FD4603361043E7BB0066E232</string>
+										<string>FD4603801043F0E00066E232</string>
 										<key>history</key>
 										<array>
 											<string>FD46020F1043CA2F0066E232</string>
-											<string>FD4602401043CC290066E232</string>
 											<string>FD4602AD1043D0340066E232</string>
 											<string>FD4602AE1043D0340066E232</string>
-											<string>FD4602C91043D22D0066E232</string>
-											<string>FD4602F21043DF110066E232</string>
-											<string>FD4602F31043DF110066E232</string>
-											<string>FD4603251043E7BB0066E232</string>
-											<string>FD4603261043E7BB0066E232</string>
-											<string>FD4603271043E7BB0066E232</string>
-											<string>FD4603281043E7BB0066E232</string>
+											<string>FD46035C1043F0E00066E232</string>
+											<string>FD46035D1043F0E00066E232</string>
+											<string>FD46035E1043F0E00066E232</string>
+											<string>FD46035F1043F0E00066E232</string>
+											<string>FD4603601043F0E00066E232</string>
+											<string>FD4603611043F0E00066E232</string>
+											<string>FD4603621043F0E00066E232</string>
+											<string>FD4603631043F0E00066E232</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -522,6 +520,34 @@
 											<string>FD4603331043E7BB0066E232</string>
 											<string>FD4603341043E7BB0066E232</string>
 											<string>FD4603351043E7BB0066E232</string>
+											<string>FD4603641043F0E00066E232</string>
+											<string>FD4603651043F0E00066E232</string>
+											<string>FD4603661043F0E00066E232</string>
+											<string>FD4603671043F0E00066E232</string>
+											<string>FD4603681043F0E00066E232</string>
+											<string>FD4603691043F0E00066E232</string>
+											<string>FD46036A1043F0E00066E232</string>
+											<string>FD46036B1043F0E00066E232</string>
+											<string>FD46036C1043F0E00066E232</string>
+											<string>FD46036D1043F0E00066E232</string>
+											<string>FD46036E1043F0E00066E232</string>
+											<string>FD46036F1043F0E00066E232</string>
+											<string>FD4603701043F0E00066E232</string>
+											<string>FD4603711043F0E00066E232</string>
+											<string>FD4603721043F0E00066E232</string>
+											<string>FD4603731043F0E00066E232</string>
+											<string>FD4603741043F0E00066E232</string>
+											<string>FD4603751043F0E00066E232</string>
+											<string>FD4603761043F0E00066E232</string>
+											<string>FD4603771043F0E00066E232</string>
+											<string>FD4603781043F0E00066E232</string>
+											<string>FD4603791043F0E00066E232</string>
+											<string>FD46037A1043F0E00066E232</string>
+											<string>FD46037B1043F0E00066E232</string>
+											<string>FD46037C1043F0E00066E232</string>
+											<string>FD46037D1043F0E00066E232</string>
+											<string>FD46037E1043F0E00066E232</string>
+											<string>FD46037F1043F0E00066E232</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -715,12 +741,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>FD4603371043E7BB0066E232</string>
+		<string>FD4603811043F0E00066E232</string>
 		<string>FD4601EC1043C9270066E232</string>
 		<string>FD4601E11043C9080066E232</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>/Library/WebServer/Documents/shaker/shaker/shaker.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Library/WebServer/Documents/shaker/shaker/shaker.xcodeproj</string>
 		<string>FD38B0C01043541F00848695</string>
 	</array>
 	<key>WindowString</key>
