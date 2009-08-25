@@ -23,16 +23,16 @@
 	28D7ACF60DDB3853001CB0EB /* shakerViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {715, 311}}";
-			sepNavSelRange = "{340, 0}";
-			sepNavVisRange = "{0, 400}";
+			sepNavSelRange = "{363, 0}";
+			sepNavVisRange = "{0, 424}";
 			sepNavWindowFrame = "{{15, 95}, {862, 678}}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* shakerViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {829, 1582}}";
-			sepNavSelRange = "{2404, 5}";
-			sepNavVisRange = "{792, 530}";
+			sepNavIntBoundsRect = "{{0, 0}, {756, 1890}}";
+			sepNavSelRange = "{1330, 0}";
+			sepNavVisRange = "{0, 363}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -443,6 +443,18 @@
 			FD4603341043E7BB0066E232 /* PBXTextBookmark */ = FD4603341043E7BB0066E232 /* PBXTextBookmark */;
 			FD4603351043E7BB0066E232 /* PBXTextBookmark */ = FD4603351043E7BB0066E232 /* PBXTextBookmark */;
 			FD4603361043E7BB0066E232 /* PBXTextBookmark */ = FD4603361043E7BB0066E232 /* PBXTextBookmark */;
+			FD4603391043E8450066E232 /* PBXTextBookmark */ = FD4603391043E8450066E232 /* PBXTextBookmark */;
+			FD46033A1043E8450066E232 /* PBXTextBookmark */ = FD46033A1043E8450066E232 /* PBXTextBookmark */;
+			FD46033B1043E8450066E232 /* PBXTextBookmark */ = FD46033B1043E8450066E232 /* PBXTextBookmark */;
+			FD46033C1043E8450066E232 /* PBXTextBookmark */ = FD46033C1043E8450066E232 /* PBXTextBookmark */;
+			FD46033D1043E8450066E232 /* PBXTextBookmark */ = FD46033D1043E8450066E232 /* PBXTextBookmark */;
+			FD46033E1043E8450066E232 /* PBXTextBookmark */ = FD46033E1043E8450066E232 /* PBXTextBookmark */;
+			FD46033F1043E8450066E232 /* PBXTextBookmark */ = FD46033F1043E8450066E232 /* PBXTextBookmark */;
+			FD4603401043E8450066E232 /* PBXTextBookmark */ = FD4603401043E8450066E232 /* PBXTextBookmark */;
+			FD4603411043E8450066E232 /* PBXTextBookmark */ = FD4603411043E8450066E232 /* PBXTextBookmark */;
+			FD4603421043E8450066E232 /* PBXTextBookmark */ = FD4603421043E8450066E232 /* PBXTextBookmark */;
+			FD4603431043E8450066E232 /* PBXTextBookmark */ = FD4603431043E8450066E232 /* PBXTextBookmark */;
+			FD4603441043E8460066E232 /* PBXTextBookmark */ = FD4603441043E8460066E232 /* PBXTextBookmark */;
 		};
 		sourceControlManager = FD89E26510340F5000765D11 /* Source Control */;
 		userBuildSettings = {
@@ -452,14 +464,14 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {715, 532}}";
 			sepNavSelRange = "{542, 0}";
-			sepNavVisRange = "{248, 652}";
+			sepNavVisRange = "{0, 410}";
 		};
 	};
 	FD38B0B510434E4E00848695 /* Shaker.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {715, 1540}}";
-			sepNavSelRange = "{212, 0}";
-			sepNavVisRange = "{137, 290}";
+			sepNavSelRange = "{191, 0}";
+			sepNavVisRange = "{3, 337}";
 		};
 	};
 	FD38B0C31043543300848695 /* PBXTextBookmark */ = {
@@ -517,7 +529,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 25";
 		rLen = 0;
-		rLoc = 446;
+		rLoc = 448;
 		rType = 0;
 		vrLen = 353;
 		vrLoc = 243;
@@ -537,7 +549,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 45";
 		rLen = 0;
-		rLoc = 2162;
+		rLoc = 2164;
 		rType = 0;
 		vrLen = 319;
 		vrLoc = 182;
@@ -557,7 +569,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 46";
 		rLen = 0;
-		rLoc = 2162;
+		rLoc = 2164;
 		rType = 0;
 		vrLen = 410;
 		vrLoc = 290;
@@ -577,7 +589,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 49";
 		rLen = 0;
-		rLoc = 2335;
+		rLoc = 2337;
 		rType = 0;
 		vrLen = 476;
 		vrLoc = 295;
@@ -597,7 +609,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 44";
 		rLen = 991;
-		rLoc = 737;
+		rLoc = 739;
 		rType = 0;
 		vrLen = 521;
 		vrLoc = 571;
@@ -617,7 +629,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 49";
 		rLen = 98;
-		rLoc = 1464;
+		rLoc = 1466;
 		rType = 0;
 		vrLen = 660;
 		vrLoc = 590;
@@ -637,7 +649,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 71";
 		rLen = 0;
-		rLoc = 2335;
+		rLoc = 2337;
 		rType = 0;
 		vrLen = 711;
 		vrLoc = 668;
@@ -747,7 +759,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 16";
 		rLen = 0;
-		rLoc = 392;
+		rLoc = 416;
 		rType = 0;
 		vrLen = 324;
 		vrLoc = 0;
@@ -757,7 +769,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 25";
 		rLen = 0;
-		rLoc = 788;
+		rLoc = 1394;
 		rType = 0;
 		vrLen = 658;
 		vrLoc = 150;
@@ -767,7 +779,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 13";
 		rLen = 0;
-		rLoc = 340;
+		rLoc = 364;
 		rType = 0;
 		vrLen = 341;
 		vrLoc = 0;
@@ -777,7 +789,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 32";
 		rLen = 0;
-		rLoc = 1234;
+		rLoc = 2110;
 		rType = 0;
 		vrLen = 644;
 		vrLoc = 0;
@@ -787,7 +799,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 17";
 		rLen = 0;
-		rLoc = 392;
+		rLoc = 416;
 		rType = 0;
 		vrLen = 370;
 		vrLoc = 0;
@@ -797,7 +809,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 34";
 		rLen = 56;
-		rLoc = 500;
+		rLoc = 502;
 		rType = 0;
 		vrLen = 378;
 		vrLoc = 272;
@@ -817,7 +829,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 73";
 		rLen = 0;
-		rLoc = 2335;
+		rLoc = 2337;
 		rType = 0;
 		vrLen = 701;
 		vrLoc = 769;
@@ -827,7 +839,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 36";
 		rLen = 0;
-		rLoc = 1571;
+		rLoc = 2285;
 		rType = 0;
 		vrLen = 641;
 		vrLoc = 3;
@@ -837,7 +849,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 17";
 		rLen = 0;
-		rLoc = 392;
+		rLoc = 416;
 		rType = 0;
 		vrLen = 370;
 		vrLoc = 0;
@@ -857,7 +869,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 26";
 		rLen = 0;
-		rLoc = 740;
+		rLoc = 1113;
 		rType = 0;
 		vrLen = 577;
 		vrLoc = 184;
@@ -867,7 +879,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 34";
 		rLen = 0;
-		rLoc = 499;
+		rLoc = 501;
 		rType = 0;
 		vrLen = 303;
 		vrLoc = 3;
@@ -877,7 +889,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 17";
 		rLen = 0;
-		rLoc = 392;
+		rLoc = 416;
 		rType = 0;
 		vrLen = 370;
 		vrLoc = 0;
@@ -887,7 +899,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 44";
 		rLen = 0;
-		rLoc = 1719;
+		rLoc = 2433;
 		rType = 0;
 		vrLen = 561;
 		vrLoc = 347;
@@ -897,7 +909,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 35";
 		rLen = 0;
-		rLoc = 500;
+		rLoc = 502;
 		rType = 0;
 		vrLen = 545;
 		vrLoc = 966;
@@ -917,7 +929,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 26";
 		rLen = 0;
-		rLoc = 740;
+		rLoc = 1113;
 		rType = 0;
 		vrLen = 577;
 		vrLoc = 184;
@@ -927,7 +939,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 53";
 		rLen = 89;
-		rLoc = 1152;
+		rLoc = 1154;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 548;
@@ -947,7 +959,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 12";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 310;
 		vrLoc = 137;
@@ -957,7 +969,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 17";
 		rLen = 0;
-		rLoc = 392;
+		rLoc = 416;
 		rType = 0;
 		vrLen = 370;
 		vrLoc = 0;
@@ -977,7 +989,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 84";
 		rLen = 0;
-		rLoc = 2198;
+		rLoc = 2200;
 		rType = 0;
 		vrLen = 642;
 		vrLoc = 1638;
@@ -997,7 +1009,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 12";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 310;
 		vrLoc = 137;
@@ -1007,7 +1019,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 17";
 		rLen = 0;
-		rLoc = 392;
+		rLoc = 416;
 		rType = 0;
 		vrLen = 370;
 		vrLoc = 0;
@@ -1024,16 +1036,16 @@
 	};
 	FD46017A1043BE070066E232 /* CartesianInputView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {715, 602}}";
-			sepNavSelRange = "{909, 0}";
-			sepNavVisRange = "{404, 580}";
+			sepNavIntBoundsRect = "{{0, 0}, {715, 574}}";
+			sepNavSelRange = "{404, 0}";
+			sepNavVisRange = "{254, 447}";
 		};
 	};
 	FD46017B1043BE070066E232 /* CartesianInputView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {715, 4802}}";
-			sepNavSelRange = "{2132, 0}";
-			sepNavVisRange = "{1794, 499}";
+			sepNavIntBoundsRect = "{{0, 0}, {829, 4634}}";
+			sepNavSelRange = "{4430, 0}";
+			sepNavVisRange = "{4126, 454}";
 		};
 	};
 	FD4601971043C8FC0066E232 /* PBXTextBookmark */ = {
@@ -1051,7 +1063,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 38";
 		rLen = 0;
-		rLoc = 983;
+		rLoc = 771;
 		rType = 0;
 		vrLen = 539;
 		vrLoc = 167;
@@ -1071,7 +1083,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 38";
 		rLen = 0;
-		rLoc = 983;
+		rLoc = 771;
 		rType = 0;
 		vrLen = 367;
 		vrLoc = 708;
@@ -1091,7 +1103,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 38";
 		rLen = 0;
-		rLoc = 983;
+		rLoc = 771;
 		rType = 0;
 		vrLen = 539;
 		vrLoc = 167;
@@ -1111,7 +1123,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 38";
 		rLen = 0;
-		rLoc = 983;
+		rLoc = 771;
 		rType = 0;
 		vrLen = 446;
 		vrLoc = 374;
@@ -1131,7 +1143,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 12";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 292;
 		vrLoc = 137;
@@ -1140,7 +1152,7 @@
 		isa = PBXTextBookmark;
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 20";
-		rLen = 244;
+		rLen = 140;
 		rLoc = 264;
 		rType = 0;
 		vrLen = 657;
@@ -1189,7 +1201,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 12";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 292;
 		vrLoc = 137;
@@ -1219,7 +1231,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 12";
 		rLen = 0;
-		rLoc = 686;
+		rLoc = 474;
 		rType = 0;
 		vrLen = 218;
 		vrLoc = 0;
@@ -1239,7 +1251,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 44";
 		rLen = 0;
-		rLoc = 1053;
+		rLoc = 841;
 		rType = 0;
 		vrLen = 707;
 		vrLoc = 445;
@@ -1259,7 +1271,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 44";
 		rLen = 0;
-		rLoc = 1053;
+		rLoc = 841;
 		rType = 0;
 		vrLen = 707;
 		vrLoc = 445;
@@ -1279,7 +1291,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 46";
 		rLen = 0;
-		rLoc = 1053;
+		rLoc = 841;
 		rType = 0;
 		vrLen = 541;
 		vrLoc = 716;
@@ -1299,7 +1311,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 46";
 		rLen = 0;
-		rLoc = 1053;
+		rLoc = 841;
 		rType = 0;
 		vrLen = 694;
 		vrLoc = 21;
@@ -1319,7 +1331,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 46";
 		rLen = 0;
-		rLoc = 1053;
+		rLoc = 841;
 		rType = 0;
 		vrLen = 683;
 		vrLoc = 32;
@@ -1439,7 +1451,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 28";
 		rLen = 0;
-		rLoc = 648;
+		rLoc = 436;
 		rType = 0;
 		vrLen = 778;
 		vrLoc = 265;
@@ -1459,7 +1471,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 28";
 		rLen = 0;
-		rLoc = 648;
+		rLoc = 436;
 		rType = 0;
 		vrLen = 776;
 		vrLoc = 265;
@@ -1479,7 +1491,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 43";
 		rLen = 0;
-		rLoc = 844;
+		rLoc = 632;
 		rType = 0;
 		vrLen = 489;
 		vrLoc = 754;
@@ -1499,7 +1511,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 43";
 		rLen = 0;
-		rLoc = 844;
+		rLoc = 632;
 		rType = 0;
 		vrLen = 489;
 		vrLoc = 754;
@@ -1519,7 +1531,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 43";
 		rLen = 0;
-		rLoc = 844;
+		rLoc = 632;
 		rType = 0;
 		vrLen = 798;
 		vrLoc = 195;
@@ -1539,7 +1551,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 35";
 		rLen = 0;
-		rLoc = 789;
+		rLoc = 577;
 		rType = 0;
 		vrLen = 518;
 		vrLoc = 754;
@@ -1559,7 +1571,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 35";
 		rLen = 0;
-		rLoc = 789;
+		rLoc = 577;
 		rType = 0;
 		vrLen = 626;
 		vrLoc = 325;
@@ -1579,7 +1591,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 17";
 		rLen = 0;
-		rLoc = 392;
+		rLoc = 416;
 		rType = 0;
 		vrLen = 370;
 		vrLoc = 0;
@@ -1589,7 +1601,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 34";
 		rLen = 0;
-		rLoc = 1122;
+		rLoc = 1998;
 		rType = 0;
 		vrLen = 544;
 		vrLoc = 644;
@@ -1598,7 +1610,7 @@
 		isa = PBXTextBookmark;
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 20";
-		rLen = 244;
+		rLen = 140;
 		rLoc = 264;
 		rType = 0;
 		vrLen = 657;
@@ -1609,7 +1621,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 46";
 		rLen = 0;
-		rLoc = 1567;
+		rLoc = 2282;
 		rType = 0;
 		vrLen = 635;
 		vrLoc = 644;
@@ -1668,7 +1680,7 @@
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		rLen = 0;
-		rLoc = 42;
+		rLoc = 66;
 		rType = 1;
 	};
 	FD4601EA1043C9270066E232 /* PBXTextBookmark */ = {
@@ -1686,7 +1698,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 33";
 		rLen = 0;
-		rLoc = 900;
+		rLoc = 1506;
 		rType = 0;
 		vrLen = 571;
 		vrLoc = 570;
@@ -1696,7 +1708,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 33";
 		rLen = 0;
-		rLoc = 900;
+		rLoc = 1506;
 		rType = 0;
 		vrLen = 592;
 		vrLoc = 547;
@@ -1705,7 +1717,7 @@
 		isa = PBXTextBookmark;
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 15";
-		rLen = 244;
+		rLen = 140;
 		rLoc = 264;
 		rType = 0;
 		vrLen = 661;
@@ -1736,7 +1748,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 33";
 		rLen = 0;
-		rLoc = 900;
+		rLoc = 1506;
 		rType = 0;
 		vrLen = 592;
 		vrLoc = 547;
@@ -1745,7 +1757,7 @@
 		isa = PBXTextBookmark;
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 15";
-		rLen = 244;
+		rLen = 140;
 		rLoc = 264;
 		rType = 0;
 		vrLen = 661;
@@ -1786,7 +1798,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 14";
 		rLen = 0;
-		rLoc = 340;
+		rLoc = 364;
 		rType = 0;
 		vrLen = 400;
 		vrLoc = 0;
@@ -1796,7 +1808,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 14";
 		rLen = 0;
-		rLoc = 340;
+		rLoc = 364;
 		rType = 0;
 		vrLen = 400;
 		vrLoc = 0;
@@ -1806,7 +1818,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 14";
 		rLen = 0;
-		rLoc = 340;
+		rLoc = 364;
 		rType = 0;
 		vrLen = 400;
 		vrLoc = 0;
@@ -1836,7 +1848,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 14";
 		rLen = 0;
-		rLoc = 340;
+		rLoc = 364;
 		rType = 0;
 		vrLen = 400;
 		vrLoc = 0;
@@ -1866,7 +1878,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 14";
 		rLen = 0;
-		rLoc = 340;
+		rLoc = 364;
 		rType = 0;
 		vrLen = 400;
 		vrLoc = 0;
@@ -1947,7 +1959,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 12";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 290;
 		vrLoc = 137;
@@ -2028,7 +2040,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 12";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 290;
 		vrLoc = 137;
@@ -2057,7 +2069,7 @@
 		isa = PBXTextBookmark;
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 15";
-		rLen = 244;
+		rLen = 140;
 		rLoc = 264;
 		rType = 0;
 		vrLen = 661;
@@ -2068,7 +2080,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 14";
 		rLen = 0;
-		rLoc = 340;
+		rLoc = 364;
 		rType = 0;
 		vrLen = 400;
 		vrLoc = 0;
@@ -2087,7 +2099,7 @@
 		isa = PBXTextBookmark;
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 15";
-		rLen = 244;
+		rLen = 140;
 		rLoc = 264;
 		rType = 0;
 		vrLen = 661;
@@ -2098,7 +2110,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 14";
 		rLen = 0;
-		rLoc = 340;
+		rLoc = 364;
 		rType = 0;
 		vrLen = 400;
 		vrLoc = 0;
@@ -2138,7 +2150,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 14";
 		rLen = 0;
-		rLoc = 340;
+		rLoc = 364;
 		rType = 0;
 		vrLen = 400;
 		vrLoc = 0;
@@ -2148,7 +2160,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 14";
 		rLen = 0;
-		rLoc = 340;
+		rLoc = 364;
 		rType = 0;
 		vrLen = 400;
 		vrLoc = 0;
@@ -2157,7 +2169,7 @@
 		isa = PBXTextBookmark;
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 15";
-		rLen = 244;
+		rLen = 140;
 		rLoc = 264;
 		rType = 0;
 		vrLen = 661;
@@ -2188,7 +2200,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 14";
 		rLen = 0;
-		rLoc = 340;
+		rLoc = 364;
 		rType = 0;
 		vrLen = 400;
 		vrLoc = 0;
@@ -2197,7 +2209,7 @@
 		isa = PBXTextBookmark;
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 15";
-		rLen = 244;
+		rLen = 140;
 		rLoc = 264;
 		rType = 0;
 		vrLen = 661;
@@ -2268,7 +2280,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 23";
 		rLen = 0;
-		rLoc = 654;
+		rLoc = 442;
 		rType = 0;
 		vrLen = 453;
 		vrLoc = 622;
@@ -2318,7 +2330,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 23";
 		rLen = 0;
-		rLoc = 654;
+		rLoc = 442;
 		rType = 0;
 		vrLen = 621;
 		vrLoc = 0;
@@ -2338,7 +2350,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 23";
 		rLen = 0;
-		rLoc = 654;
+		rLoc = 442;
 		rType = 0;
 		vrLen = 453;
 		vrLoc = 622;
@@ -2387,7 +2399,7 @@
 		isa = PBXTextBookmark;
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 15";
-		rLen = 244;
+		rLen = 140;
 		rLoc = 264;
 		rType = 0;
 		vrLen = 616;
@@ -2398,7 +2410,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 14";
 		rLen = 0;
-		rLoc = 340;
+		rLoc = 364;
 		rType = 0;
 		vrLen = 400;
 		vrLoc = 0;
@@ -2428,7 +2440,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 23";
 		rLen = 0;
-		rLoc = 654;
+		rLoc = 442;
 		rType = 0;
 		vrLen = 454;
 		vrLoc = 621;
@@ -2447,7 +2459,7 @@
 		isa = PBXTextBookmark;
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 15";
-		rLen = 244;
+		rLen = 140;
 		rLoc = 264;
 		rType = 0;
 		vrLen = 616;
@@ -2458,7 +2470,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 22";
 		rLen = 0;
-		rLoc = 392;
+		rLoc = 416;
 		rType = 0;
 		vrLen = 633;
 		vrLoc = 3;
@@ -2468,7 +2480,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 22";
 		rLen = 0;
-		rLoc = 392;
+		rLoc = 416;
 		rType = 0;
 		vrLen = 633;
 		vrLoc = 3;
@@ -2477,7 +2489,7 @@
 		isa = PBXTextBookmark;
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 15";
-		rLen = 244;
+		rLen = 140;
 		rLoc = 264;
 		rType = 0;
 		vrLen = 616;
@@ -2488,7 +2500,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 12";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 290;
 		vrLoc = 137;
@@ -2508,7 +2520,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 22";
 		rLen = 0;
-		rLoc = 392;
+		rLoc = 416;
 		rType = 0;
 		vrLen = 633;
 		vrLoc = 3;
@@ -2528,7 +2540,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 22";
 		rLen = 0;
-		rLoc = 392;
+		rLoc = 416;
 		rType = 0;
 		vrLen = 633;
 		vrLoc = 3;
@@ -2537,7 +2549,7 @@
 		isa = PBXTextBookmark;
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 15";
-		rLen = 244;
+		rLen = 140;
 		rLoc = 264;
 		rType = 0;
 		vrLen = 616;
@@ -2548,7 +2560,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 12";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 290;
 		vrLoc = 137;
@@ -2578,7 +2590,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 19";
 		rLen = 0;
-		rLoc = 648;
+		rLoc = 436;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 142;
@@ -2617,7 +2629,7 @@
 		isa = PBXTextBookmark;
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 15";
-		rLen = 244;
+		rLen = 140;
 		rLoc = 264;
 		rType = 0;
 		vrLen = 616;
@@ -2638,7 +2650,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 19";
 		rLen = 0;
-		rLoc = 648;
+		rLoc = 436;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 142;
@@ -2658,7 +2670,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 22";
 		rLen = 0;
-		rLoc = 392;
+		rLoc = 416;
 		rType = 0;
 		vrLen = 633;
 		vrLoc = 3;
@@ -2708,7 +2720,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 22";
 		rLen = 0;
-		rLoc = 392;
+		rLoc = 416;
 		rType = 0;
 		vrLen = 633;
 		vrLoc = 3;
@@ -2737,8 +2749,8 @@
 		isa = PBXTextBookmark;
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 18";
-		rLen = 93;
-		rLoc = 414;
+		rLen = 0;
+		rLoc = 404;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 142;
@@ -2757,8 +2769,8 @@
 		isa = PBXTextBookmark;
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 18";
-		rLen = 4;
-		rLoc = 450;
+		rLen = 0;
+		rLoc = 404;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 142;
@@ -2778,7 +2790,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 19";
 		rLen = 0;
-		rLoc = 558;
+		rLoc = 404;
 		rType = 0;
 		vrLen = 627;
 		vrLoc = 142;
@@ -2848,7 +2860,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 12";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 290;
 		vrLoc = 137;
@@ -2868,7 +2880,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 12";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 290;
 		vrLoc = 137;
@@ -2918,7 +2930,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 17";
 		rLen = 0;
-		rLoc = 392;
+		rLoc = 416;
 		rType = 0;
 		vrLen = 400;
 		vrLoc = 0;
@@ -2958,7 +2970,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 17";
 		rLen = 0;
-		rLoc = 392;
+		rLoc = 416;
 		rType = 0;
 		vrLen = 400;
 		vrLoc = 0;
@@ -2968,7 +2980,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 65";
 		rLen = 0;
-		rLoc = 1457;
+		rLoc = 2282;
 		rType = 0;
 		vrLen = 488;
 		vrLoc = 1199;
@@ -2978,7 +2990,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 65";
 		rLen = 0;
-		rLoc = 1457;
+		rLoc = 2282;
 		rType = 0;
 		vrLen = 488;
 		vrLoc = 1199;
@@ -2988,7 +3000,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 65";
 		rLen = 0;
-		rLoc = 1457;
+		rLoc = 2282;
 		rType = 0;
 		vrLen = 488;
 		vrLoc = 1199;
@@ -3005,7 +3017,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 65";
 		rLen = 0;
-		rLoc = 1457;
+		rLoc = 2282;
 		rType = 0;
 		vrLen = 488;
 		vrLoc = 1199;
@@ -3125,7 +3137,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 65";
 		rLen = 0;
-		rLoc = 1457;
+		rLoc = 2282;
 		rType = 0;
 		vrLen = 488;
 		vrLoc = 1199;
@@ -3145,7 +3157,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 65";
 		rLen = 0;
-		rLoc = 1457;
+		rLoc = 2282;
 		rType = 0;
 		vrLen = 488;
 		vrLoc = 1199;
@@ -3175,7 +3187,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 43";
 		rLen = 0;
-		rLoc = 1001;
+		rLoc = 1607;
 		rType = 0;
 		vrLen = 711;
 		vrLoc = 469;
@@ -3185,7 +3197,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 43";
 		rLen = 0;
-		rLoc = 992;
+		rLoc = 1598;
 		rType = 0;
 		vrLen = 712;
 		vrLoc = 469;
@@ -3195,7 +3207,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 43";
 		rLen = 0;
-		rLoc = 992;
+		rLoc = 1598;
 		rType = 0;
 		vrLen = 386;
 		vrLoc = 2020;
@@ -3205,7 +3217,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 20";
 		rLen = 0;
-		rLoc = 626;
+		rLoc = 414;
 		rType = 0;
 		vrLen = 644;
 		vrLoc = 0;
@@ -3225,7 +3237,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 43";
 		rLen = 0;
-		rLoc = 992;
+		rLoc = 1598;
 		rType = 0;
 		vrLen = 386;
 		vrLoc = 2020;
@@ -3245,7 +3257,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 19";
 		rLen = 0;
-		rLoc = 648;
+		rLoc = 436;
 		rType = 0;
 		vrLen = 613;
 		vrLoc = 0;
@@ -3265,7 +3277,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 20";
 		rLen = 0;
-		rLoc = 626;
+		rLoc = 414;
 		rType = 0;
 		vrLen = 644;
 		vrLoc = 0;
@@ -3325,7 +3337,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 12";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 290;
 		vrLoc = 137;
@@ -3345,7 +3357,7 @@
 		fRef = FD38B0B510434E4E00848695 /* Shaker.m */;
 		name = "Shaker.m: 12";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 214;
 		rType = 0;
 		vrLen = 290;
 		vrLoc = 137;
@@ -3355,7 +3367,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 62";
 		rLen = 0;
-		rLoc = 1403;
+		rLoc = 2279;
 		rType = 0;
 		vrLen = 526;
 		vrLoc = 878;
@@ -3379,7 +3391,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 14";
 		rLen = 0;
-		rLoc = 340;
+		rLoc = 364;
 		rType = 0;
 		vrLen = 400;
 		vrLoc = 0;
@@ -3389,7 +3401,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 45";
 		rLen = 0;
-		rLoc = 1084;
+		rLoc = 1958;
 		rType = 0;
 		vrLen = 603;
 		vrLoc = 632;
@@ -3399,7 +3411,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 33";
 		rLen = 0;
-		rLoc = 846;
+		rLoc = 634;
 		rType = 0;
 		vrLen = 612;
 		vrLoc = 404;
@@ -3439,7 +3451,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 62";
 		rLen = 0;
-		rLoc = 1403;
+		rLoc = 2279;
 		rType = 0;
 		vrLen = 363;
 		vrLoc = 0;
@@ -3449,7 +3461,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 15";
 		rLen = 0;
-		rLoc = 340;
+		rLoc = 364;
 		rType = 0;
 		vrLen = 424;
 		vrLoc = 0;
@@ -3459,7 +3471,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 103";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 3037;
 		rType = 0;
 		vrLen = 363;
 		vrLoc = 0;
@@ -3469,7 +3481,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 14";
 		rLen = 0;
-		rLoc = 340;
+		rLoc = 364;
 		rType = 0;
 		vrLen = 400;
 		vrLoc = 0;
@@ -3479,7 +3491,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 35";
 		rLen = 0;
-		rLoc = 909;
+		rLoc = 697;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 392;
@@ -3499,7 +3511,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 37";
 		rLen = 0;
-		rLoc = 740;
+		rLoc = 1113;
 		rType = 0;
 		vrLen = 575;
 		vrLoc = 632;
@@ -3509,7 +3521,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* shakerViewController.h */;
 		name = "shakerViewController.h: 14";
 		rLen = 0;
-		rLoc = 340;
+		rLoc = 364;
 		rType = 0;
 		vrLen = 400;
 		vrLoc = 0;
@@ -3519,7 +3531,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
 		name = "shakerViewController.m: 45";
 		rLen = 0;
-		rLoc = 1084;
+		rLoc = 1958;
 		rType = 0;
 		vrLen = 603;
 		vrLoc = 632;
@@ -3569,7 +3581,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 35";
 		rLen = 0;
-		rLoc = 909;
+		rLoc = 697;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 392;
@@ -3599,7 +3611,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 31";
 		rLen = 0;
-		rLoc = 844;
+		rLoc = 632;
 		rType = 0;
 		vrLen = 604;
 		vrLoc = 392;
@@ -3679,7 +3691,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 33";
 		rLen = 0;
-		rLoc = 846;
+		rLoc = 634;
 		rType = 0;
 		vrLen = 612;
 		vrLoc = 404;
@@ -3759,7 +3771,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 36";
 		rLen = 0;
-		rLoc = 909;
+		rLoc = 697;
 		rType = 0;
 		vrLen = 580;
 		vrLoc = 404;
@@ -3809,7 +3821,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 35";
 		rLen = 0;
-		rLoc = 909;
+		rLoc = 697;
 		rType = 0;
 		vrLen = 702;
 		vrLoc = 334;
@@ -3829,7 +3841,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 36";
 		rLen = 0;
-		rLoc = 909;
+		rLoc = 697;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 334;
@@ -3889,7 +3901,7 @@
 		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
 		name = "CartesianInputView.h: 36";
 		rLen = 0;
-		rLoc = 909;
+		rLoc = 697;
 		rType = 0;
 		vrLen = 580;
 		vrLoc = 404;
@@ -3933,6 +3945,124 @@
 		rType = 0;
 		vrLen = 499;
 		vrLoc = 1794;
+	};
+	FD4603391043E8450066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* shakerAppDelegate.m */;
+		name = "shakerAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 266;
+		rType = 0;
+		vrLen = 357;
+		vrLoc = 144;
+	};
+	FD46033A1043E8450066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
+		name = "shakerViewController.m: 111";
+		rLen = 5;
+		rLoc = 3143;
+		rType = 0;
+		vrLen = 530;
+		vrLoc = 792;
+	};
+	FD46033B1043E8450066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
+		name = "CartesianInputView.h: 38";
+		rLen = 0;
+		rLoc = 841;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 655;
+	};
+	FD46033C1043E8450066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "warning: 'ActiveZone' may not respond to '+zoneForX:Y:'";
+		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
+		rLen = 1;
+		rLoc = 160;
+		rType = 1;
+	};
+	FD46033D1043E8450066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
+		name = "CartesianInputView.h: 38";
+		rLen = 0;
+		rLoc = 771;
+		rType = 0;
+		vrLen = 446;
+		vrLoc = 374;
+	};
+	FD46033E1043E8450066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* shakerAppDelegate.m */;
+		name = "shakerAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 266;
+		rType = 0;
+		vrLen = 357;
+		vrLoc = 144;
+	};
+	FD46033F1043E8450066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
+		name = "CartesianInputView.m: 23";
+		rLen = 6;
+		rLoc = 494;
+		rType = 0;
+		vrLen = 317;
+		vrLoc = 210;
+	};
+	FD4603401043E8450066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */;
+		name = "shakerViewController.m: 111";
+		rLen = 5;
+		rLoc = 3143;
+		rType = 0;
+		vrLen = 530;
+		vrLoc = 792;
+	};
+	FD4603411043E8450066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
+		name = "CartesianInputView.m: 249";
+		rLen = 5;
+		rLoc = 7717;
+		rType = 0;
+		vrLen = 103;
+		vrLoc = 5889;
+	};
+	FD4603421043E8450066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017A1043BE070066E232 /* CartesianInputView.h */;
+		name = "CartesianInputView.h: 38";
+		rLen = 0;
+		rLoc = 841;
+		rType = 0;
+		vrLen = 366;
+		vrLoc = 655;
+	};
+	FD4603431043E8450066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
+		name = "CartesianInputView.m: 194";
+		rLen = 0;
+		rLoc = 4430;
+		rType = 0;
+		vrLen = 454;
+		vrLoc = 4126;
+	};
+	FD4603441043E8460066E232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD46017B1043BE070066E232 /* CartesianInputView.m */;
+		name = "CartesianInputView.m: 194";
+		rLen = 0;
+		rLoc = 4430;
+		rType = 0;
+		vrLen = 454;
+		vrLoc = 4126;
 	};
 	FD89E25910340F4900765D11 /* shaker */ = {
 		isa = PBXExecutable;

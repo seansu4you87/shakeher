@@ -8,8 +8,8 @@
 
 #import "Shaker.h"
 
-#define ACCELERATION_THRESHOLD 1.0
-#define MIN_TIME 0.2
+#define ACCELERATION_THRESHOLD 0.85
+#define MIN_TIME 0.15
 
 @implementation Shaker
 

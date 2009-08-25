@@ -32,9 +32,33 @@
     return self;
 }*/
 
+#define FLASH_DURATION 0.2
+#define FLASH_ID @"flash"
+
+
+- (void)animationDidStop:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context
+{
+	if([animationID isEqualToString:FLASH_ID])
+	{
+		[UIView beginAnimations:@"deflash" context:nil];
+		[UIView setAnimationDuration:FLASH_DURATION];
+		
+		shakeOverlay.alpha = 0.0;
+		
+		[UIView commitAnimations];
+	}
+}
+
 - (void) didShakeWithMagnitude:(float)magnitude
 {
-	//NSLog(@"Shook u! with magnitude:%f", magnitude);
+	[UIView beginAnimations:FLASH_ID context:nil];
+	[UIView setAnimationDelegate:self];
+	[UIView setAnimationDidStopSelector:@selector(animationDidStop: finished: context:)];
+	[UIView setAnimationDuration:FLASH_DURATION/5.0];
+	
+	shakeOverlay.alpha = 0.75;
+	
+	[UIView commitAnimations];
 }
 
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
@@ -43,7 +67,13 @@
 	CartesianInputView * inputView = [[CartesianInputView alloc] initWithFrame:CGRectMake(0, 20, 320, 460)];
 	inputView.backgroundColor = [UIColor greenColor];
 	inputView.delegate = self;
+	shakeOverlay = [[UIView alloc] initWithFrame:CGRectMake(0, 0, inputView.frame.size.width, inputView.frame.size.height)];
+	shakeOverlay.opaque = NO;
+	shakeOverlay.backgroundColor = [UIColor whiteColor];
+	shakeOverlay.alpha = 0.0;
+	[inputView addSubview:shakeOverlay];
 	self.view = [inputView autorelease];
+	
 	
 	shaker = [[Shaker alloc] init];
 	shaker.delegate = self;
@@ -60,13 +90,7 @@
 - (int) numYQuantizationsForInputView:(CartesianInputView*)inputView
 {
 	return 7;
-}
-
-- (void) inputView:(CartesianInputView*)inputView movedToXSection:(int)xSection ySection:(int)ySection
-{
-	NSLog(@"changed to x:%d y:%d", xSection, ySection);
-}
- 
+} 
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -104,6 +128,7 @@
 - (void)dealloc {
 	[shaker stop];
 	[shaker release];
+	[shakeOverlay release];
 	
     [super dealloc];
 }
