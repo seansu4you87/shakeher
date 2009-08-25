@@ -9,11 +9,11 @@
 #import "Shaker.h"
 
 #define ACCELERATION_THRESHOLD 1.0
-#define MIN_TIME 0.1
+#define MIN_TIME 0.2
 
 @implementation Shaker
 
-@synthesize delegate, lastAcceleration;
+@synthesize delegate, lastAcceleration, lastShake;
 
 - (id) init
 {
@@ -28,6 +28,7 @@
 - (void) dealloc
 {
 	[lastAcceleration release];
+	[lastShake release];
 	
 	[super dealloc];
 }
@@ -36,7 +37,7 @@
 {
 	NSLog(@"started shaker fer u");
 	[UIAccelerometer sharedAccelerometer].delegate = self;
-	[UIAccelerometer sharedAccelerometer].updateInterval = 0;
+	[UIAccelerometer sharedAccelerometer].updateInterval = 0;//update as much as possible
 }
 
 - (void) stop
@@ -49,7 +50,7 @@
 {
 	BOOL hardEnough = [Shaker differenceFromAcceleration:lastAcceleration toAcceleration:acceleration] > ACCELERATION_THRESHOLD;
 	BOOL changedEnough = [Shaker acceleration:acceleration changedDirectionFrom:lastAcceleration];
-	BOOL lateEnough = acceleration.timestamp - lastAcceleration.timestamp > MIN_TIME;
+	BOOL lateEnough = acceleration.timestamp - lastShake.timestamp > MIN_TIME;
 	
 	return hardEnough && changedEnough && lateEnough;
 }
@@ -81,6 +82,7 @@
 	if([self accelerationIsShake:acceleration])
 	{
 		[delegate didShakeWithMagnitude:[Shaker differenceFromAcceleration:lastAcceleration toAcceleration:acceleration]];
+		self.lastShake = acceleration;
 	}
 	
 	self.lastAcceleration = acceleration;
