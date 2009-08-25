@@ -16,6 +16,7 @@
 		28D7ACF80DDB3853001CB0EB /* shakerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* shakerViewController.m */; };
 		FD38B0B610434E4E00848695 /* Shaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FD38B0B510434E4E00848695 /* Shaker.m */; };
 		FD46017C1043BE070066E232 /* CartesianInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD46017B1043BE070066E232 /* CartesianInputView.m */; };
+		FD4602E01043D6210066E232 /* ActiveZone.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4602DF1043D6210066E232 /* ActiveZone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		FD38B0B510434E4E00848695 /* Shaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shaker.m; sourceTree = "<group>"; };
 		FD46017A1043BE070066E232 /* CartesianInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartesianInputView.h; sourceTree = "<group>"; };
 		FD46017B1043BE070066E232 /* CartesianInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartesianInputView.m; sourceTree = "<group>"; };
+		FD4602DE1043D6210066E232 /* ActiveZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActiveZone.h; sourceTree = "<group>"; };
+		FD4602DF1043D6210066E232 /* ActiveZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActiveZone.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				FD38B0B510434E4E00848695 /* Shaker.m */,
 				FD46017A1043BE070066E232 /* CartesianInputView.h */,
 				FD46017B1043BE070066E232 /* CartesianInputView.m */,
+				FD4602DE1043D6210066E232 /* ActiveZone.h */,
+				FD4602DF1043D6210066E232 /* ActiveZone.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 				28D7ACF80DDB3853001CB0EB /* shakerViewController.m in Sources */,
 				FD38B0B610434E4E00848695 /* Shaker.m in Sources */,
 				FD46017C1043BE070066E232 /* CartesianInputView.m in Sources */,
+				FD4602E01043D6210066E232 /* ActiveZone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
