@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "Shaker.h"
+#import "CartesianInputView.h"
 
-@interface shakerViewController : UIViewController<ShakerDelegate> {
+@interface shakerViewController : UIViewController<ShakerDelegate, CartesianInputViewDelegate> {
 	Shaker * shaker;
-	IBOutlet UISlider * slider;
 }
 
 - (void) didShakeWithMagnitude:(float)magnitude;

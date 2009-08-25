@@ -12,12 +12,11 @@
 @implementation shakerAppDelegate
 
 @synthesize window;
-@synthesize viewController;
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
-    
-    // Override point for customization after app launch    
+    viewController = [[shakerViewController alloc] init];
+	
     [window addSubview:viewController.view];
     [window makeKeyAndVisible];
 }
