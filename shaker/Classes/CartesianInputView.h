@@ -15,8 +15,6 @@
 - (int) numXQuantizationsForInputView:(CartesianInputView*)inputView;
 - (int) numYQuantizationsForInputView:(CartesianInputView*)inputView;
 
-- (void) inputView:(CartesianInputView*)inputView movedToXSection:(int)xSection ySection:(int)ySection;
-- (void) inputView:(CartesianInputView*)inputView movedToXPercent:(float)xPercent yPercent:(float)yPercent;
 - (void) drawRect:(CGRect)rect;
 
 @end

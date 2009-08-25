@@ -12,6 +12,7 @@
 
 @interface shakerViewController : UIViewController<ShakerDelegate, CartesianInputViewDelegate> {
 	Shaker * shaker;
+	UIView * shakeOverlay;
 }
 
 - (void) didShakeWithMagnitude:(float)magnitude;
