@@ -84,12 +84,12 @@
 
 - (int) numXQuantizationsForInputView:(CartesianInputView*)inputView
 {
-	return 3;
+	return 1;
 }
 
 - (int) numYQuantizationsForInputView:(CartesianInputView*)inputView
 {
-	return 7;
+	return 5;
 } 
 
 
